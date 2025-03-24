@@ -1,0 +1,41 @@
+# Secure
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-KEYWORD,shopify
+DOMAIN-KEYWORD,sms-activate
+DOMAIN-KEYWORD,smsactivate
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,altstore.io
+DOMAIN-SUFFIX,forbooks.jp
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,lastpass.com
+DOMAIN-SUFFIX,manulife.com.hk
+DOMAIN-SUFFIX,shop.app
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,zurich.com.hk
+DOMAIN,api.redotpay.com
+
+# WNACG
+DOMAIN,www.wnacg.com
+DOMAIN,t4.qy0.ru
+DOMAIN,img5.qy0.ru
+
+# e-hentai
+DOMAIN,e-hentai.org
+DOMAIN,ehgt.org
+DOMAIN,exhentai.org
+DOMAIN-SUFFIX,hath.network
+
+# asmr.one
+DOMAIN-SUFFIX,asmr.one
+DOMAIN,raw.kiko-play-niptan.one
+
+# DLsite
+DOMAIN-SUFFIX,dlsite.com
+DOMAIN-SUFFIX,dlsite.jp
+
+# Misc
+DOMAIN-KEYWORD,copymanga
+DOMAIN-KEYWORD,whoscall
