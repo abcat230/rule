@@ -17,25 +17,26 @@ DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,zurich.com.hk
 DOMAIN,api.redotpay.com
 
-# WNACG
-DOMAIN,www.wnacg.com
-DOMAIN,t4.qy0.ru
-DOMAIN,img5.qy0.ru
-
-# e-hentai
+# Private
+DOMAIN-KEYWORD,asmr
+DOMAIN-KEYWORD,copymanga
+DOMAIN-KEYWORD,jav
+DOMAIN-KEYWORD,whoscall
+DOMAIN-SUFFIX,dlsite.com
+DOMAIN-SUFFIX,dlsite.jp
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,holodex.net
+DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,lightnovel.us
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,pximg.net
 DOMAIN,e-hentai.org
 DOMAIN,ehgt.org
 DOMAIN,exhentai.org
-DOMAIN-SUFFIX,hath.network
-
-# asmr.one
-DOMAIN-SUFFIX,asmr.one
+DOMAIN,img5.qy0.ru
 DOMAIN,raw.kiko-play-niptan.one
-
-# DLsite
-DOMAIN-SUFFIX,dlsite.com
-DOMAIN-SUFFIX,dlsite.jp
-
-# Misc
-DOMAIN-KEYWORD,copymanga
-DOMAIN-KEYWORD,whoscall
+DOMAIN,t4.qy0.ru
+DOMAIN,www.wnacg.com
