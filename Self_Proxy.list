@@ -3,6 +3,7 @@ DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate
+DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,altstore.io
 DOMAIN-SUFFIX,forbooks.jp
@@ -11,33 +12,34 @@ DOMAIN-SUFFIX,ibllc.com
 DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,manulife.com.hk
+DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,zurich.com.hk
 DOMAIN,api.redotpay.com
 
+# Manga / Novel
+DOMAIN-SUFFIX,copymanga.tv
+DOMAIN-SUFFIX,holodex.net
+DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,lightnovel.us
+DOMAIN-SUFFIX,mangacopy.com
+DOMAIN-SUFFIX,mangafuna.xyz
+
 # Private
 DOMAIN-KEYWORD,asmr
-DOMAIN-KEYWORD,copymanga
 DOMAIN-KEYWORD,jav
-DOMAIN-KEYWORD,whoscall
+DOMAIN-KEYWORD,hentai
 DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,dlsite.jp
+DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fantia.jp
 DOMAIN-SUFFIX,hath.network
-DOMAIN-SUFFIX,holodex.net
-DOMAIN-SUFFIX,kemono.su
-DOMAIN-SUFFIX,kemono.su
-DOMAIN-SUFFIX,lightnovel.us
-DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,img5.qy0.ru
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,raw.kiko-play-niptan.one
 DOMAIN-SUFFIX,south-plus.net
-DOMAIN,e-hentai.org
-DOMAIN,ehgt.org
-DOMAIN,exhentai.org
-DOMAIN,img5.qy0.ru
-DOMAIN,raw.kiko-play-niptan.one
-DOMAIN,t4.qy0.ru
-DOMAIN,www.wnacg.com
+DOMAIN-SUFFIX,t4.qy0.ru
+DOMAIN-SUFFIX,wnacg.com
