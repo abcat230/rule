@@ -26,6 +26,10 @@ DOMAIN-SUFFIX,lightnovel.us
 DOMAIN-SUFFIX,mangacopy.com
 DOMAIN-SUFFIX,mangafuna.xyz
 
+# Cloud
+DOMAIN-SUFFIX,racknerd.com
+DOMAIN,claw.cloud
+
 # Private
 DOMAIN-KEYWORD,asmr
 DOMAIN-KEYWORD,dlsite
