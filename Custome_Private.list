@@ -1,14 +1,23 @@
-DOMAIN-KEYWORD,asmr
+# ehentai
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hath.network
+
+# DLsite
 DOMAIN-KEYWORD,dlsite
+DOMAIN-SUFFIX,eisys-bcs.jp
+
+DOMAIN-KEYWORD,asmr
 DOMAIN-KEYWORD,hentai
 DOMAIN-KEYWORD,jable
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,wnacg
-DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,bance.jp
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fantia.jp
-DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,jp1media.com
 DOMAIN-SUFFIX,kemono.su
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qy0.ru
