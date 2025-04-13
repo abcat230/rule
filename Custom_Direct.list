@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,bankofchina.com
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bocmacau.com
 DOMAIN-SUFFIX,etnet.com.hk
-DOMAIN-SUFFIX,expressapisv2.net
 DOMAIN-SUFFIX,fusionbank.com
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
@@ -15,3 +14,16 @@ DOMAIN-SUFFIX,welab.bank
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN,www.gamer520.com
+
+# ExpressVPN
+DOMAIN-SUFFIX,expressapisv2.net
+IP-CIDR,193.176.211.0/24,no-resolve
+IP-CIDR,194.5.83.0/24,no-resolve
+IP-CIDR,203.25.124.0/24,no-resolve
+IP-CIDR,94.5.83.0/24,no-resolve
+
+# Surfshark
+DOMAIN-SUFFIX,prod.surfshark.com
+DOMAIN,api.surfshark.com
+DOMAIN,cdn.surfshark.com
+DOMAIN,ux.surfshark.com
