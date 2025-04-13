@@ -17,6 +17,7 @@ DOMAIN,www.gamer520.com
 
 # ExpressVPN
 DOMAIN-SUFFIX,expressapisv2.net
+IP-CIDR,104.234.225.0/24,no-resolve
 IP-CIDR,104.234.227.0/24,no-resolve
 IP-CIDR,185.208.11.0/24,no-resolve
 IP-CIDR,193.176.211.0/24,no-resolve
@@ -29,6 +30,13 @@ IP-CIDR,23.27.18.0/24,no-resolve
 
 # Surfshark
 DOMAIN-SUFFIX,prod.surfshark.com
+DOMAIN,api.bookpen82.com
+DOMAIN,api.sir90hl.com
 DOMAIN,api.surfshark.com
+DOMAIN,api.tablepen82.com
 DOMAIN,cdn.surfshark.com
+DOMAIN,stats.surfshark.com
+DOMAIN,surfsharkstatus.com
+DOMAIN,ux.bookpen82.com
+DOMAIN,ux.sir90hl.com
 DOMAIN,ux.surfshark.com
