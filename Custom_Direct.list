@@ -23,8 +23,8 @@ IP-CIDR,185.208.11.0/24,no-resolve
 IP-CIDR,193.176.211.0/24,no-resolve
 IP-CIDR,194.5.83.0/24,no-resolve
 IP-CIDR,203.25.124.0/24,no-resolve
-IP-CIDR,213.21.186.0,no-resolve
-IP-CIDR,213.21.210.0,no-resolve
+IP-CIDR,213.21.186.0/24,no-resolve
+IP-CIDR,213.21.210.0/24,no-resolve
 IP-CIDR,213.21.238.0/24,no-resolve
 IP-CIDR,23.27.18.0/24,no-resolve
 
