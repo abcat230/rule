@@ -43,5 +43,7 @@ DOMAIN,base-mainnet.g.alchemy.com
 DOMAIN,eth-mainnet.g.alchemy.com
 DOMAIN,explorer-api.walletconnect.com
 DOMAIN,info-sky.blockanalitica.com
+DOMAIN,ondo.finance
 DOMAIN,pulse.walletconnect.org
+DOMAIN,rpc.cosmos.directory
 DOMAIN,safe-transaction-mainnet.safe.global
