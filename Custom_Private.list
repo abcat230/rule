@@ -1,8 +1,10 @@
-# ehentai
+# Manga
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,nhentai.net
+DOMAIN-SUFFIX,wnacg.com
 
 # DLsite
 DOMAIN-KEYWORD,dlsite
@@ -31,13 +33,14 @@ DOMAIN,surrit.com
 DOMAIN-KEYWORD,asmr
 DOMAIN-KEYWORD,hentai
 DOMAIN-KEYWORD,jav
-DOMAIN-KEYWORD,wnacg
 DOMAIN-SUFFIX,bance.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fantia.jp
 DOMAIN-SUFFIX,jp1media.com
 DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qy0.ru
 DOMAIN-SUFFIX,raw.kiko-play-niptan.one
