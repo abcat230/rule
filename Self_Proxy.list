@@ -1,3 +1,10 @@
+# Cloud
+DOMAIN-SUFFIX,racknerd.com
+DOMAIN,claw.cloud
+
+# Game related
+DOMAIN-SUFFIX,mapgenie.io
+
 # Manga / Novel
 DOMAIN-SUFFIX,copymanga.tv
 DOMAIN-SUFFIX,holodex.net
@@ -6,7 +13,3 @@ DOMAIN-SUFFIX,lightnovel.us
 DOMAIN-SUFFIX,mangacopy.com
 DOMAIN-SUFFIX,mangafuna.xyz
 DOMAIN-SUFFIX,manhuagui.com
-
-# Cloud
-DOMAIN-SUFFIX,racknerd.com
-DOMAIN,claw.cloud
