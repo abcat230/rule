@@ -16,6 +16,9 @@ DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN,www.gamer520.com
 
+# Cloud
+DOMAIN-SUFFIX,mypikpak.com
+
 # ExpressVPN
 DOMAIN-SUFFIX,expressapisv2.net
 IP-CIDR,104.234.225.0/24,no-resolve
