@@ -26,10 +26,11 @@ DOMAIN-SUFFIX,mypikpak.net
 # ExpressVPN
 DOMAIN-SUFFIX,expressapisv2.net
 IP-CIDR,104.234.225.0/24,no-resolve # ExpressVPN - USA Santa Monica
-IP-CIDR,104.234.227.0/24,no-resolve # ExpressVPN - USA LA 5
+IP-CIDR,104.234.227.0/24,no-resolve # ExpressVPN - USA LA
+IP-CIDR,115.167.79.0/24,no-resolve # ExpressVPN - Japan Yokohama/Tokyo
 IP-CIDR,193.176.211.0/24,no-resolve # ExpressVPN - Hong Kong
 IP-CIDR,203.25.124.0/24,no-resolve # ExpressVPN - Japan Osaka
-IP-CIDR,213.21.247.0/24,no-resolve # ExpressVPN - Japan Yokohama
+IP-CIDR,213.21.247.0/24,no-resolve # ExpressVPN - Japan Yokohama/Tokyo
 IP-CIDR,85.203.23.0/24,no-resolve # ExpressVPN - Singapore Marina Bay
 
 # Surfshark
