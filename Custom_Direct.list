@@ -1,8 +1,10 @@
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,antbank
+DOMAIN-KEYWORD,bankofchina
+DOMAIN-KEYWORD,bochk
+DOMAIN-KEYWORD,bocmacau
+DOMAIN-KEYWORD,octopus
 DOMAIN-SUFFIX,airstarbank.com
-DOMAIN-SUFFIX,antbank.hk
-DOMAIN-SUFFIX,bankofchina.com
-DOMAIN-SUFFIX,bochk.com
-DOMAIN-SUFFIX,bocmacau.com
 DOMAIN-SUFFIX,etnet.com.hk
 DOMAIN-SUFFIX,fusionbank.com
 DOMAIN-SUFFIX,gov.hk
@@ -16,22 +18,19 @@ DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN,www.gamer520.com
 
+
 # Cloud
 DOMAIN-SUFFIX,mypikpak.com
 DOMAIN-SUFFIX,mypikpak.net
 
 # ExpressVPN
 DOMAIN-SUFFIX,expressapisv2.net
-IP-CIDR,104.234.225.0/24,no-resolve
-IP-CIDR,104.234.227.0/24,no-resolve
-IP-CIDR,185.208.11.0/24,no-resolve
-IP-CIDR,193.176.211.0/24,no-resolve
-IP-CIDR,194.5.83.0/24,no-resolve
-IP-CIDR,203.25.124.0/24,no-resolve
-IP-CIDR,213.21.186.0/24,no-resolve
-IP-CIDR,213.21.210.0/24,no-resolve
-IP-CIDR,213.21.238.0/24,no-resolve
-IP-CIDR,23.27.18.0/24,no-resolve
+IP-CIDR,104.234.225.0/24,no-resolve # ExpressVPN - USA Santa Monica
+IP-CIDR,104.234.227.0/24,no-resolve # ExpressVPN - USA LA 5
+IP-CIDR,193.176.211.0/24,no-resolve # ExpressVPN - Hong Kong
+IP-CIDR,203.25.124.0/24,no-resolve # ExpressVPN - Japan Osaka
+IP-CIDR,213.21.247.0/24,no-resolve # ExpressVPN - Japan Yokohama
+IP-CIDR,85.203.23.0/24,no-resolve # ExpressVPN - Singapore Marina Bay
 
 # Surfshark
 DOMAIN-SUFFIX,prod.surfshark.com
