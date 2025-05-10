@@ -1,49 +1,35 @@
+DOMAIN-KEYWORD,airstarbank
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,antbank
 DOMAIN-KEYWORD,bankofchina
 DOMAIN-KEYWORD,bochk
 DOMAIN-KEYWORD,bocmacau
+DOMAIN-KEYWORD,fusionbank
+DOMAIN-KEYWORD,hangseng
+DOMAIN-KEYWORD,hsbc
 DOMAIN-KEYWORD,octopus
-DOMAIN-SUFFIX,airstarbank.com
 DOMAIN-SUFFIX,etnet.com.hk
-DOMAIN-SUFFIX,fusionbank.com
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
-DOMAIN-SUFFIX,hangseng.com
-DOMAIN-SUFFIX,hsbc.com.hk
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN,www.gamer520.com
-DOMAIN-SUFFIX,wlcdn88.com
-
-
-# Cloud
-DOMAIN-SUFFIX,mypikpak.com
-DOMAIN-SUFFIX,mypikpak.net
 
 # ExpressVPN
 DOMAIN-SUFFIX,expressapisv2.net
 IP-CIDR,104.234.225.0/24,no-resolve # USA Santa Monica
 IP-CIDR,104.234.227.0/24,no-resolve # USA LA
 IP-CIDR,115.167.79.0/24,no-resolve # Japan Yokohama/Tokyo
+IP-CIDR,185.199.157.0/24,no-resolve # USA San Francisco
+IP-CIDR,185.233.133.0/24,no-resolve # France
 IP-CIDR,193.176.211.0/24,no-resolve # Hong Kong
 IP-CIDR,203.25.124.0/24,no-resolve # Japan Osaka
 IP-CIDR,213.21.247.0/24,no-resolve # Japan Yokohama/Tokyo
+IP-CIDR,3.229.173.0/24,no-resolve # USA Virginia
+IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
-
-# Surfshark
-DOMAIN-SUFFIX,prod.surfshark.com
-DOMAIN,api.bookpen82.com
-DOMAIN,api.sir90hl.com
-DOMAIN,api.surfshark.com
-DOMAIN,api.tablepen82.com
-DOMAIN,cdn.surfshark.com
-DOMAIN,stats.surfshark.com
-DOMAIN,surfsharkstatus.com
-DOMAIN,ux.bookpen82.com
-DOMAIN,ux.sir90hl.com
-DOMAIN,ux.surfshark.com
