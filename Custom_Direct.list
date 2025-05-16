@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,zajourney.com
 DOMAIN,www.gamer520.com
 
 # ExpressVPN
+DOMAIN,vpn-support.zendesk.com
 DOMAIN-SUFFIX,expressapisv2.net
 IP-CIDR,104.234.225.0/24,no-resolve # USA Santa Monica
 IP-CIDR,104.234.227.0/24,no-resolve # USA LA
