@@ -1,4 +1,6 @@
-# IP-CIDR,47.245.60.0/22,no-resolve
+# IP-CIDR,47.245.29.0/24,no-resolve
+# IP-CIDR,47.245.60.0/24,no-resolve
+# IP-CIDR,47.245.62.0/24,no-resolve
 # IP-CIDR,47.245.8.0/24,no-resolve
 # IP-CIDR,47.74.55.0/24,no-resolve
 # IP-CIDR,47.91.14.0/24,no-resolve
@@ -9,6 +11,7 @@
 # IP-CIDR,8.209.213.0/24,no-resolve
 # IP-CIDR,8.209.251.0/24,no-resolve
 # IP-CIDR,8.209.255.0/24,no-resolve
+# IP-CIDR,8.211.160.0/24,no-resolve
 # IP-CIDR,8.211.164.0/24,no-resolve
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hoyoverse.com
