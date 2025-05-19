@@ -1,9 +1,11 @@
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,starrails.com
+IP-CIDR,47.245.61.0/24,no-resolve
 IP-CIDR,47.245.63.0/24,no-resolve
 IP-CIDR,47.74.9.0/24,no-resolve
 IP-CIDR,47.91.14.0/24,no-resolve
 IP-CIDR,8.209.196.0/24,no-resolve
 IP-CIDR,8.209.197.0/24,no-resolve
+IP-CIDR,8.209.212.0/24,no-resolve
 IP-CIDR,8.209.249.0/24,no-resolve
