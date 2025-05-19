@@ -2,3 +2,4 @@ DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,starrails.com
 DST-PORT,23301
+SRC-PORT,23301
