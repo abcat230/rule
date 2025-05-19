@@ -1,15 +1,16 @@
-# DST-PORT,23301,no-resolve
+# IP-CIDR,47.245.60.0/22,no-resolve
+# IP-CIDR,47.245.8.0/24,no-resolve
+# IP-CIDR,47.74.55.0/24,no-resolve
+# IP-CIDR,47.91.14.0/24,no-resolve
+# IP-CIDR,47.91.19.0/24,no-resolve
+# IP-CIDR,8.209.196.0/24,no-resolve
+# IP-CIDR,8.209.197.0/24,no-resolve
+# IP-CIDR,8.209.208.0/24,no-resolve
+# IP-CIDR,8.209.213.0/24,no-resolve
+# IP-CIDR,8.209.251.0/24,no-resolve
+# IP-CIDR,8.209.255.0/24,no-resolve
+# IP-CIDR,8.211.164.0/24,no-resolve
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,starrails.com
-IP-CIDR,47.245.60.0/22,no-resolve
-IP-CIDR,47.245.8.0/24,no-resolve
-IP-CIDR,47.74.55.0/24,no-resolve
-IP-CIDR,47.91.14.0/24,no-resolve
-IP-CIDR,47.91.19.0/24,no-resolve
-IP-CIDR,8.209.196.0/24,no-resolve
-IP-CIDR,8.209.197.0/24,no-resolve
-IP-CIDR,8.209.213.0/24,no-resolve
-IP-CIDR,8.209.251.0/24,no-resolve
-IP-CIDR,8.209.255.0/24,no-resolve
-IP-CIDR,8.211.164.0/24,no-resolve
+DST-PORT,23301,no-resolve
