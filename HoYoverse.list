@@ -1,4 +1,7 @@
 DOMAIN-SUFFIX,starrails.com
+IP-CIDR,47.245.30.0/24,no-resolve
+IP-CIDR,47.245.52.0/24,no-resolve
+IP-CIDR,47.245.57.0/24,no-resolve
 IP-CIDR,47.245.60.0/24,no-resolve
 IP-CIDR,47.245.61.0/24,no-resolve
 IP-CIDR,47.245.62.0/24,no-resolve
