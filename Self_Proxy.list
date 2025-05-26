@@ -10,10 +10,12 @@ DOMAIN,supporter-files.nexus-cdn.com
 # Manga / Novel
 DOMAIN-SUFFIX,bilinovel.com
 DOMAIN-SUFFIX,copymanga.tv
-DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,komiic.com
 DOMAIN-SUFFIX,lightnovel.us
 DOMAIN-SUFFIX,linovelib.com
 DOMAIN-SUFFIX,mangacopy.com
 DOMAIN-SUFFIX,mangafuna.xyz
 DOMAIN-SUFFIX,manhuagui.com
+
+# AI
+DOMAIN-SUFFIX,lmarena.ai
