@@ -6,33 +6,30 @@ DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,nhentai.net
 DOMAIN-SUFFIX,wnacg.com
 
-# DLsite
+# audio
+DOMAIN-KEYWORD,asmr
 DOMAIN-KEYWORD,dlsite
 DOMAIN-SUFFIX,chobit.cc
 DOMAIN-SUFFIX,eisys-bcs.jp
+DOMAIN-SUFFIX,kiko-play-niptan.one
 
-# supjav
+# video
+DOMAIN-KEYWORD,hentai
+DOMAIN-KEYWORD,jav
 DOMAIN-SUFFIX,sptvp.com
 DOMAIN-SUFFIX,streamtape.com
 DOMAIN-SUFFIX,supjav.com
 DOMAIN-SUFFIX,supremejav.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,turboviplay.com
-
-# jable
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mushroomtrack.com
-
-# missav
 DOMAIN-SUFFIX,missav.ai
 DOMAIN,fourhoi.com
 DOMAIN,nineyu.com
 DOMAIN,surrit.com
 
 # Misc
-DOMAIN-KEYWORD,asmr
-DOMAIN-KEYWORD,hentai
-DOMAIN-KEYWORD,jav
 DOMAIN-SUFFIX,bance.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,fanbox.cc
@@ -43,6 +40,5 @@ DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qy0.ru
-DOMAIN-SUFFIX,raw.kiko-play-niptan.one
 DOMAIN-SUFFIX,south-plus.net
 DOMAIN,v.weeab0o.xyz
