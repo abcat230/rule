@@ -1,12 +1,12 @@
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
+DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,brave-http-only.com
 DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,nzxt.com
 DOMAIN-SUFFIX,warp.dev
-DOMAIN-SUFFIX,zed.dev
 DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,holodex.net
-DOMAIN-SUFFIX,adtidy.org # ADGuard
+DOMAIN-SUFFIX,zed.dev
