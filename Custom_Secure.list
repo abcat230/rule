@@ -5,13 +5,12 @@ DOMAIN-KEYWORD,shopback
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate
-DOMAIN-SUFFIX,1password.com
+DOMAIN-KEYWORD,1password
+DOMAIN-KEYWORD,lastpass
 DOMAIN-SUFFIX,altstore.io
 DOMAIN-SUFFIX,forbooks.jp
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,manulife.com.hk
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,shop.app
@@ -19,8 +18,6 @@ DOMAIN-SUFFIX,zurich.com.hk
 DOMAIN,api.redotpay.com
 
 # Mail
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.list
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Protonmail/Protonmail.list
 DOMAIN-SUFFIX,imap.yandex.com
 DOMAIN-SUFFIX,m.hotmail.com
 DOMAIN-SUFFIX,pm.me
