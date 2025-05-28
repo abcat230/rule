@@ -1,17 +1,19 @@
-DOMAIN-SUFFIX,birdie.com.hk
-DOMAIN-SUFFIX,etnet.com.hk
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
-DOMAIN-SUFFIX,hkex.com.hk
-DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
-DOMAIN-SUFFIX,tplinkcloud.com
-DOMAIN-SUFFIX,hkbn.net
 DOMAIN,www.gamer520.com
 
-# Banking
+# HSBC
 DOMAIN-KEYWORD,hsbc
+DOMAIN-SUFFIX,eum-appdynamics.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,tealiumiq.com
+DOMAIN,logx.optimizely.com
+DOMAIN,ocsp.digicert.com
+DOMAIN,h64.online-metrix.net
+
+# Other Banking
 DOMAIN-KEYWORD,hangseng
 DOMAIN-KEYWORD,fusionbank
 DOMAIN-KEYWORD,antbank
@@ -23,13 +25,18 @@ DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,welab.bank
-DOMAIN-SUFFIX,eum-appdynamics.com
-DOMAIN-SUFFIX,liveperson.net
 
 # Payment
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,codpayment
 DOMAIN-KEYWORD,octopus
+
+# Service
+DOMAIN-SUFFIX,birdie.com.hk
+DOMAIN-SUFFIX,hkex.com.hk
+DOMAIN-SUFFIX,tplinkcloud.com
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,hkbn.net
 
 # ExpressVPN
 DOMAIN,vpn-support.zendesk.com
