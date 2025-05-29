@@ -54,4 +54,4 @@ IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
 
 # Download
-DOMAIN,sswpdd.xyz
+DOMAIN-SUFFIX,sswpdd.xyz
