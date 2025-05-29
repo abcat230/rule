@@ -52,3 +52,6 @@ IP-CIDR,213.21.247.0/24,no-resolve # Japan Yokohama/Tokyo
 IP-CIDR,3.229.173.0/24,no-resolve # USA Virginia
 IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
+
+# Download
+DOMAIN,allall01.sswpdd.xyz
