@@ -1,11 +1,12 @@
-DST-PORT,23301
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,brave-http-only.com
 DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,nzxt.com
+DOMAIN-SUFFIX,paradox-interactive.com
 DOMAIN-SUFFIX,warp.dev
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,zed.dev
