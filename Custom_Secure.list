@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,zurich.com.hk
 DOMAIN,api.redotpay.com
+DOMAIN-SUFFIX,axa.com.hk
+DOMAIN-KEYWORD,axaconnect
 
 # Mail
 DOMAIN-SUFFIX,imap.yandex.com
