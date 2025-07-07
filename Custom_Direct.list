@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,hkex.com.hk
 DOMAIN-SUFFIX,tplinkcloud.com
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,hkbn.net
+DOMAIN-SUFFIX,tuielf.com
 
 # ExpressVPN
 DOMAIN,vpn-support.zendesk.com
