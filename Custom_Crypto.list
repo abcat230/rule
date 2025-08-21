@@ -7,6 +7,7 @@ DOMAIN,ondo.finance
 DOMAIN,pulse.walletconnect.org
 DOMAIN,rpc.cosmos.directory
 DOMAIN,safe-transaction-mainnet.safe.global
+DOMAIN,sapien.io
 DOMAIN-KEYWORD,aerodrome
 DOMAIN-KEYWORD,bitverse
 DOMAIN-KEYWORD,byapps
@@ -14,7 +15,6 @@ DOMAIN-KEYWORD,bycsi
 DOMAIN-KEYWORD,mantrachain
 DOMAIN-KEYWORD,navi
 DOMAIN-KEYWORD,naviprotocol
-DOMAIN-KEYWORD,sapien
 DOMAIN-KEYWORD,walletconnect
 DOMAIN-SUFFIX,byabcde.com
 DOMAIN-SUFFIX,byapps.net
