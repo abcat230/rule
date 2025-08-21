@@ -1,31 +1,30 @@
 # Misc
+DOMAIN-KEYWORD,aia
 DOMAIN-KEYWORD,axa
 DOMAIN-KEYWORD,hkjc
 DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-KEYWORD,ibkr
+DOMAIN-KEYWORD,ibllc
+DOMAIN-KEYWORD,ibsj
 DOMAIN-KEYWORD,shopback
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate
 DOMAIN-KEYWORD,1password
 DOMAIN-KEYWORD,lastpass
-DOMAIN-SUFFIX,altstore.io
+DOMAIN-KEYWORD,notion
 DOMAIN-SUFFIX,forbooks.jp
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,ibllc.com
 DOMAIN-SUFFIX,manulife.com.hk
-DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,zurich.com.hk
 DOMAIN,api.redotpay.com
 
 # Mail
+DOMAIN-KEYWORD,protonmail
 DOMAIN-SUFFIX,imap.yandex.com
 DOMAIN-SUFFIX,m.hotmail.com
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
-DOMAIN-SUFFIX,protonmail.ch
-DOMAIN-SUFFIX,protonmail.com
-DOMAIN-SUFFIX,protonstatus.com
 DOMAIN-SUFFIX,smtp.yandex.com
 DOMAIN,apple.imap.mail.yahoo.com
 DOMAIN,apple.smtp.mail.yahoo.com
@@ -38,4 +37,5 @@ DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
 
 # Crypto
+DOMAIN-KEYWORD,sapien
 DOMAIN-SUFFIX,walletconnect.com
