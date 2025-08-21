@@ -35,8 +35,3 @@ DOMAIN,pop.gmail.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
-
-# Crypto
-DOMAIN-KEYWORD,aerodrome
-DOMAIN-KEYWORD,sapien
-DOMAIN-KEYWORD,walletconnect
