@@ -1,3 +1,4 @@
+DOMAIN,aerodrome.finance
 DOMAIN,app.elys.network
 DOMAIN,base-mainnet.g.alchemy.com
 DOMAIN,eth-mainnet.g.alchemy.com
@@ -8,7 +9,6 @@ DOMAIN,pulse.walletconnect.org
 DOMAIN,rpc.cosmos.directory
 DOMAIN,safe-transaction-mainnet.safe.global
 DOMAIN,sapien.io
-DOMAIN-KEYWORD,aerodrome
 DOMAIN-KEYWORD,bitverse
 DOMAIN-KEYWORD,byapps
 DOMAIN-KEYWORD,bycsi
