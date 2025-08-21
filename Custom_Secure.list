@@ -1,23 +1,24 @@
 # Misc
+DOMAIN,api.redotpay.com
+DOMAIN,www.expressvpn.com
+DOMAIN-KEYWORD,1password
 DOMAIN-KEYWORD,aia
 DOMAIN-KEYWORD,axa
 DOMAIN-KEYWORD,hkjc
-DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,ibkr
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibsj
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-KEYWORD,lastpass
+DOMAIN-KEYWORD,notion
 DOMAIN-KEYWORD,shopback
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate
-DOMAIN-KEYWORD,1password
-DOMAIN-KEYWORD,lastpass
-DOMAIN-KEYWORD,notion
 DOMAIN-SUFFIX,forbooks.jp
 DOMAIN-SUFFIX,manulife.com.hk
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,zurich.com.hk
-DOMAIN,api.redotpay.com
 
 # Mail
 DOMAIN-KEYWORD,protonmail
