@@ -37,5 +37,6 @@ DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
 
 # Crypto
+DOMAIN-KEYWORD,aerodrome
 DOMAIN-KEYWORD,sapien
 DOMAIN-SUFFIX,walletconnect.com
