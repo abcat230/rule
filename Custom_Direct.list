@@ -44,20 +44,6 @@ DOMAIN-SUFFIX,tuielf.com
 # ExpressVPN
 DOMAIN,vpn-support.zendesk.com
 DOMAIN-SUFFIX,expressapisv2.net
-IP-CIDR,104.234.225.0/24,no-resolve # USA Santa Monica
-IP-CIDR,104.234.227.0/24,no-resolve # USA LA
-IP-CIDR,115.167.79.0/24,no-resolve # Japan Yokohama/Tokyo
-IP-CIDR,185.199.157.0/24,no-resolve # USA San Francisco
-IP-CIDR,185.233.133.0/24,no-resolve # France
-IP-CIDR,193.176.211.0/24,no-resolve # Hong Kong 2
-IP-CIDR,194.5.83.0/24,no-resolve # Hong Kong 1
-IP-CIDR,203.25.124.0/24,no-resolve # Japan Osaka
-IP-CIDR,212.32.76.0/24,no-resolve # Japan Osaka
-IP-CIDR,213.21.247.0/24,no-resolve # Japan Yokohama/Tokyo
-IP-CIDR,3.229.173.0/24,no-resolve # USA Virginia
-IP-CIDR,45.80.6.0/24,no-resolve # Singapore Marina Bay
-IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
-IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
 
 # Download
 DOMAIN-SUFFIX,sswpdd.xyz
