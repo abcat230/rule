@@ -1,4 +1,7 @@
+DOMAIN,api.amplitudeexperiment.com
+DOMAIN,api.onesignal.com
 DOMAIN-KEYWORD,dlsite
+DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,bance.jp
 DOMAIN-SUFFIX,dmm.com
@@ -10,5 +13,3 @@ DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,pximg.net
-DOMAIN,api.amplitudeexperiment.com
-DOMAIN,api.onesignal.com
