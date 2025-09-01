@@ -41,9 +41,5 @@ DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,hkbn.net
 DOMAIN-SUFFIX,tuielf.com
 
-# ExpressVPN
-DOMAIN,vpn-support.zendesk.com
-DOMAIN-SUFFIX,expressapisv2.net
-
 # Download
 DOMAIN-SUFFIX,sswpdd.xyz
