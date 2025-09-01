@@ -1,4 +1,6 @@
 # ExpressVPN
+DOMAIN,vpn-support.zendesk.com
+DOMAIN-SUFFIX,expressapisv2.net
 IP-CIDR,104.234.225.0/24,no-resolve # USA Santa Monica
 IP-CIDR,104.234.227.0/24,no-resolve # USA LA
 IP-CIDR,115.167.79.0/24,no-resolve # Japan Yokohama/Tokyo
@@ -11,6 +13,7 @@ IP-CIDR,212.32.76.0/24,no-resolve # Japan Osaka
 IP-CIDR,213.21.247.0/24,no-resolve # Japan Yokohama/Tokyo
 IP-CIDR,213.254.160.0/24,no-resolve # USA Santa Monica
 IP-CIDR,3.229.173.0/24,no-resolve # USA Virginia
+IP-CIDR,45.67.97.0/24,no-resolve # South Korea 2
 IP-CIDR,45.80.6.0/24,no-resolve # Singapore Marina Bay
 IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
