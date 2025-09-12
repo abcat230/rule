@@ -17,3 +17,6 @@ IP-CIDR,45.67.97.0/24,no-resolve # South Korea 2
 IP-CIDR,45.80.6.0/24,no-resolve # Singapore Marina Bay
 IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
+
+# Surfshark
+DOMAIN-KEYWORD,surfshark
