@@ -1,6 +1,7 @@
 # ExpressVPN
-DOMAIN,vpn-support.zendesk.com
+DOMAIN-KEYWORD,expressvpn
 DOMAIN-SUFFIX,expressapisv2.net
+DOMAIN,vpn-support.zendesk.com
 IP-CIDR,104.234.225.0/24,no-resolve # USA Santa Monica
 IP-CIDR,104.234.227.0/24,no-resolve # USA LA
 IP-CIDR,115.167.79.0/24,no-resolve # Japan Yokohama/Tokyo
