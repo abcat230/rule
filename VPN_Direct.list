@@ -1,0 +1,8 @@
+# ExpressVPN
+IP-CIDR,203.25.124.0/24,no-resolve # Japan Osaka
+IP-CIDR,23.230.125.0/24,no-resolve # USA LA 2
+IP-CIDR,45.38.178.0,no-resolve 
+IP-CIDR,45.38.178.0/24,no-resolve # USA San Francisco
+IP-CIDR,45.84.219.0/24,no-resolve # JP Shibuya
+IP-CIDR,5.38.57.0/24,no-resolve # USA LA 1
+IP-CIDR,5.84.212.0/24,no-resolve # USA LA 3
