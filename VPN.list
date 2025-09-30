@@ -9,12 +9,18 @@ IP-CIDR,185.199.157.0/24,no-resolve # USA San Francisco
 IP-CIDR,185.233.133.0/24,no-resolve # France
 IP-CIDR,193.176.211.0/24,no-resolve # Hong Kong 2
 IP-CIDR,194.5.83.0/24,no-resolve # Hong Kong 1
+IP-CIDR,203.25.124.0/24,no-resolve # Japan Osaka
 IP-CIDR,212.32.76.0/24,no-resolve # Japan Osaka
 IP-CIDR,213.21.247.0/24,no-resolve # Japan Yokohama/Tokyo
 IP-CIDR,213.254.160.0/24,no-resolve # USA Santa Monica
+IP-CIDR,23.230.125.0/24,no-resolve # USA LA 2
 IP-CIDR,3.229.173.0/24,no-resolve # USA Virginia
+IP-CIDR,45.38.178.0/24,no-resolve # USA San Francisco
 IP-CIDR,45.67.97.0/24,no-resolve # South Korea 2
 IP-CIDR,45.80.6.0/24,no-resolve # Singapore Marina Bay
+IP-CIDR,45.84.219.0/24,no-resolve # JP Shibuya
+IP-CIDR,5.38.57.0/24,no-resolve # USA LA 1
+IP-CIDR,5.84.212.0/24,no-resolve # USA LA 3
 IP-CIDR,52.205.201.0/24,no-resolve # USA Virginia
 IP-CIDR,85.203.23.0/24,no-resolve # Singapore Marina Bay
 
