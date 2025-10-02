@@ -51,6 +51,62 @@ for f in "${RULE_DIR}"/*.list; do
   done < "$f"
 done
 
+# --- Duplicate checks: within each .list and across .list files ---
+tmp_all_rules="$(mktemp)"
+trap 'rm -f "$tmp_all_rules"' EXIT
+
+for f in "${RULE_DIR}"/*.list; do
+  tmp_perfile="$(mktemp)"
+  # extract non-empty non-comment trimmed lines into tmp_perfile and tmp_all_rules
+  while IFS= read -r ln; do
+    ln_no_comment=$(echo "$ln" | sed 's/#.*$//')
+    ln_trim=$(echo "$ln_no_comment" | sed 's/^[ \t]*//;s/[ \t]*$//')
+    [ -z "$ln_trim" ] && continue
+    echo "$ln_trim" >> "$tmp_perfile"
+    printf '%s\t%s\n' "$ln_trim" "$(basename "$f")" >> "$tmp_all_rules"
+  done < "$f"
+
+  # duplicates within the same file
+  if [ -s "$tmp_perfile" ]; then
+    dup=$(sort "$tmp_perfile" | uniq -d || true)
+    if [ -n "$dup" ]; then
+      echo "  [ERROR] duplicate rule(s) inside $(basename "$f"):"
+      echo "$dup" | sed 's/^/    - /'
+      errors=$((errors+1))
+    fi
+  fi
+  rm -f "$tmp_perfile"
+done
+
+# duplicates across different files
+if [ -s "$tmp_all_rules" ]; then
+  crossdup=$(sort "$tmp_all_rules" | awk -F'\t' '
+    {
+      if (files[$1]=="") files[$1]=$2;
+      else {
+        n=split(files[$1],arr,",");
+        found=0;
+        for(i=1;i<=n;i++){ if (arr[i]==$2) { found=1; break } }
+        if (!found) files[$1]=files[$1]","$2;
+      }
+    }
+    END {
+      for (r in files) {
+        n=split(files[r],arr,",");
+        if (n>1) print r "\t" files[r];
+      }
+    }' || true)
+
+  if [ -n "$crossdup" ]; then
+    echo "  [ERROR] duplicate rule(s) across .list files (rule -> files):"
+    echo "$crossdup" | while IFS=$'\t' read -r rule files; do
+      echo "    - $rule -> $files"
+    done
+    errors=$((errors+1))
+  fi
+fi
+# --- end duplicate checks ---
+
 # Validate Custom_Clash.ini for basic correctness and linkage to rulesets and node groups
 INI_FILE="${ROOT_DIR}/config/Clash/Custom_Clash.ini"
 if [ -f "$INI_FILE" ]; then
@@ -59,7 +115,7 @@ if [ -f "$INI_FILE" ]; then
   tmp_custom_lines="$(mktemp)"
   tmp_all_groups="$(mktemp)"
   tmp_node_groups="$(mktemp)"
-  trap 'rm -f "$tmp_ruleset_file" "$tmp_custom_lines" "$tmp_all_groups" "$tmp_node_groups"' EXIT
+  trap 'rm -f "$tmp_ruleset_file" "$tmp_custom_lines" "$tmp_all_groups" "$tmp_node_groups" "$tmp_all_rules"' EXIT
 
   # collect ruleset names (text before first comma on ruleset= lines)
   grep -E '^ruleset=' "$INI_FILE" | sed -E 's/^ruleset=([^,]+).*/\1/' | sed 's/^[ \t]*//;s/[ \t]*$//' > "$tmp_ruleset_file" || true
@@ -83,12 +139,13 @@ if [ -f "$INI_FILE" ]; then
     fi
   done < "$tmp_custom_lines"
 
-  # check duplicates in ruleset list
+  # check duplicates in ruleset list -> INFO only (duplicates allowed)
   if [ -s "$tmp_ruleset_file" ]; then
     dup_rules=$(sort "$tmp_ruleset_file" | uniq -d || true)
     if [ -n "$dup_rules" ]; then
-      echo "  [INFO] duplicate ruleset name(s) found:"
+      echo "  [INFO] duplicate ruleset name(s) found (allowed):"
       echo "$dup_rules" | sed 's/^/    - /'
+      # no error increment
     fi
   fi
 
