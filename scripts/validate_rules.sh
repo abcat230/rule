@@ -62,15 +62,26 @@ if [ -f "$INI_FILE" ]; then
   grep -E '^ruleset=' "$INI_FILE" | sed -E 's/^ruleset=([^,]+).*/\1/' | sed 's/^[ \t]*//;s/[ \t]*$//' > "$tmp_ruleset_file" || true
 
   # check custom_proxy_group names exist as a ruleset
-  while IFS= read -r line; do
-    grp=$(echo "$line" | sed -E 's/^custom_proxy_group=([^`]+).*/\1/')
-    grp_trim=$(echo "$grp" | sed 's/^[ \t]*//;s/[ \t]*$//')
-    [ -z "$grp_trim" ] && continue
-    if ! grep -Fxq "$grp_trim" "$tmp_ruleset_file"; then
-      echo "  [ERROR] custom_proxy_group name not found in ruleset list: '$grp_trim'"
+  # determine first "篩選" header line (if any)
+  sift_header_lineno=$(grep -nE '^[[:space:]]*[;#].*篩選' "$INI_FILE" | head -n1 | cut -d: -f1 || true)
+
+  while IFS=: read -r lineno line; do
+    # extract only the group name (text before first backtick ` )
+    grp_full=$(echo "$line" | sed -E 's/^custom_proxy_group=//')
+    grp_name=$(echo "$grp_full" | awk -F'`' '{print $1}' | sed -E 's/^[ \t]*//;s/[ \t]*$//')
+    [ -z "$grp_name" ] && continue
+
+    # If there is a 篩選 header and this group is located after it, skip validation.
+    if [ -n "$sift_header_lineno" ] && [ "$lineno" -gt "$sift_header_lineno" ]; then
+      echo "  [INFO] skipping group validation for '$grp_name' (after 篩選 header line $sift_header_lineno)"
+      continue
+    fi
+
+    if ! grep -Fxq "$grp_name" "$tmp_ruleset_file"; then
+      echo "  [ERROR] custom_proxy_group name not found in ruleset list: '$grp_name'"
       errors=$((errors+1))
     fi
-  done < <(grep -E '^custom_proxy_group=' "$INI_FILE" || true)
+  done < <(grep -nE '^custom_proxy_group=' "$INI_FILE" || true)
 
   # check ruleset sources: allow []GEOSITE/[]GEOIP, http(s) URLs, or local file paths (must exist)
   while IFS= read -r line; do
