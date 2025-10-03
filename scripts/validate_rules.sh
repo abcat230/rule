@@ -13,11 +13,13 @@ IP_CIDR_REGEX='^IP-CIDR,([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}(,.*)?$'
 
 errors=0
 
+echo "=== Starting validation ==="
 echo "Scanning .list files under ${RULE_DIR} ..."
+echo "Step 1: Checking rule syntax and format..."
 
 shopt -s nullglob
 for f in "${RULE_DIR}"/*.list; do
-  echo "Checking: $(basename "$f")"
+  echo "  Checking file: $(basename "$f")"
   # Find lines starting with a digit but not IP-CIDR
   awk 'NR==FNR{next} {print}' "$f" >/dev/null 2>&1 || true
 
@@ -52,9 +54,11 @@ for f in "${RULE_DIR}"/*.list; do
 done
 
 # --- Duplicate checks: within each .list and across .list files ---
+echo "Step 2: Checking for duplicate rules..."
 tmp_all_rules="$(mktemp)"
 trap 'rm -f "$tmp_all_rules"' EXIT
 
+echo "  Checking for duplicates within files..."
 for f in "${RULE_DIR}"/*.list; do
   tmp_perfile="$(mktemp)"
   # extract non-empty non-comment trimmed lines into tmp_perfile and tmp_all_rules
@@ -79,6 +83,7 @@ for f in "${RULE_DIR}"/*.list; do
 done
 
 # duplicates across different files
+echo "  Checking for duplicates across files..."
 if [ -s "$tmp_all_rules" ]; then
   crossdup=$(sort "$tmp_all_rules" | awk -F'\t' '
     {
@@ -108,9 +113,10 @@ fi
 # --- end duplicate checks ---
 
 # Validate Custom_Clash.ini for basic correctness and linkage to rulesets and node groups
+echo "Step 3: Validating Custom_Clash.ini configuration..."
 INI_FILE="${ROOT_DIR}/config/Clash/Custom_Clash.ini"
 if [ -f "$INI_FILE" ]; then
-  echo "Checking Custom_Clash.ini ..."
+  echo "  Checking file structure and syntax..."
   tmp_ruleset_file="$(mktemp)"
   tmp_custom_lines="$(mktemp)"
   tmp_all_groups="$(mktemp)"
@@ -139,6 +145,7 @@ if [ -f "$INI_FILE" ]; then
     fi
   done < "$tmp_custom_lines"
 
+  echo "  Checking ruleset definitions..."
   # check duplicates in ruleset list -> INFO only (duplicates allowed)
   if [ -s "$tmp_ruleset_file" ]; then
     dup_rules=$(sort "$tmp_ruleset_file" | uniq -d || true)
@@ -149,6 +156,7 @@ if [ -f "$INI_FILE" ]; then
     fi
   fi
 
+  echo "  Checking custom proxy group definitions..."
   # check duplicates in custom_proxy_group names
   if [ -s "$tmp_all_groups" ]; then
     dup_groups=$(sort "$tmp_all_groups" | uniq -d || true)
@@ -198,35 +206,68 @@ if [ -f "$INI_FILE" ]; then
     done
   done < "$tmp_custom_lines"
 
+  echo "  Validating ruleset URLs and file paths..."
   # check ruleset sources: allow []GEOSITE/[]GEOIP, http(s) URLs, or local file paths (must exist)
   while IFS= read -r line; do
     src=$(echo "$line" | sed -E 's/^ruleset=[^,]+,([^,]+).*/\1/')
-    src_trim=$(echo "$src" | sed 's/^[ \t]*//;s/[ \t]*$//')
+    src_trim=$(echo "$src" | sed 's/^*//;s/*$//')
     [ -z "$src_trim" ] && continue
+    
     if echo "$src_trim" | grep -Eq '^\['; then
       # e.g. []GEOSITE or []GEOIP — skip checks
       continue
     fi
+    
+    # Validate URLs and check for 404 responses
     if echo "$src_trim" | grep -Eq '^https?://'; then
-      # remote URL — skip existence check
-      continue
-    fi
-    # treat as local path relative to ROOT_DIR
-    localpath="${ROOT_DIR}/${src_trim}"
-    if [ ! -f "$localpath" ]; then
-      echo "  [ERROR] ruleset source file not found (expected local): '$src_trim' (checked: $localpath)"
-      errors=$((errors+1))
+      if ! echo "$src_trim" | grep -Eq '^https://'; then
+        echo "  [ERROR] ruleset URL must use HTTPS: '$src_trim'"
+        errors=$((errors+1))
+        continue
+      fi
+      
+      # Check if URL is accessible (not 404)
+      if ! curl --silent --head --fail "$src_trim" >/dev/null 2>&1; then
+        echo "    [ERROR] ruleset URL not accessible (HTTP error): '$src_trim'"
+        errors=$((errors+1))
+        continue
+      fi
+        echo "    [INFO] ruleset URL is accessible: '$src_trim'"
+
+      # Known good domains and patterns
+      if echo "$src_trim" | grep -Eq '^https://raw\.githubusercontent\.com/[^/]+/[^/]+/(main|master|refs/heads/[^/]+)/'; then
+        # GitHub raw content URL - valid pattern
+        continue
+      elif echo "$src_trim" | grep -Eq '^https://(cdn\.jsdelivr\.net/gh/|gist\.githubusercontent\.com/)'; then
+        # Other known good CDNs
+        continue
+      else
+        echo "  [ERROR] ruleset URL not from known trusted source: '$src_trim'"
+        echo "         Allowed patterns:"
+        echo "         - https://raw.githubusercontent.com/USER/REPO/(main|master|refs/heads/BRANCH)/PATH"
+        echo "         - https://cdn.jsdelivr.net/gh/USER/REPO@VERSION/PATH"
+        echo "         - https://gist.githubusercontent.com/USER/GIST/raw/VERSION/PATH"
+        errors=$((errors+1))
+      fi
+    else
+      # treat as local path relative to ROOT_DIR
+      localpath="${ROOT_DIR}/${src_trim}"
+      if [ ! -f "$localpath" ]; then
+        echo "  [ERROR] ruleset source file not found (expected local): '$src_trim' (checked: $localpath)"
+        errors=$((errors+1))
+      fi
     fi
   done < <(grep -E '^ruleset=' "$INI_FILE" || true)
 else
   echo "  [WARN] Custom_Clash.ini not found at ${INI_FILE}"
 fi
 
+echo "=== Validation complete ==="
 if [ "$errors" -ne 0 ]; then
   echo
-  echo "Validation failed: $errors issue(s) found."
+  echo "❌ Validation failed: $errors issue(s) found."
   exit 2
 else
-  echo "Validation passed."
+  echo "✅ All checks passed successfully."
   exit 0
 fi
