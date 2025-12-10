@@ -232,7 +232,6 @@ if [ -f "$INI_FILE" ]; then
         errors=$((errors+1))
         continue
       fi
-        echo "    [INFO] ruleset URL is accessible: '$src_trim'"
 
       # Known good domains and patterns
       if echo "$src_trim" | grep -Eq '^https://raw\.githubusercontent\.com/[^/]+/[^/]+/(main|master|refs/heads/[^/]+)/'; then
