@@ -1,3 +1,33 @@
+DOMAIN-KEYWORD,bitdefender
+DOMAIN-KEYWORD,whoscall
+DOMAIN-SUFFIX,aastocks.com
+DOMAIN-SUFFIX,brave-http-only.com
+DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,holodex.net
+DOMAIN-SUFFIX,investing.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,neigbuy.com
+DOMAIN-SUFFIX,nzxt.com
+DOMAIN-SUFFIX,paradox-interactive.com
+DOMAIN-SUFFIX,sswpdd.xyz
+DOMAIN-SUFFIX,warp.dev
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,zed.dev
+DOMAIN,dl.motrix.app
+DOMAIN,scamsniffer.io
+
+
+# VPN
+DOMAIN-KEYWORD,expressvpn
+DOMAIN-SUFFIX,expressapisv2.net
+DOMAIN,vpn-support.zendesk.com
+DOMAIN-KEYWORD,surfshark
+
+# cloudstorage
+DOMAIN-SUFFIX,gofile.io
+DOMAIN-SUFFIX,mega.co.nz
+DOMAIN-SUFFIX,pcloud.com
+
 DOMAIN-KEYWORD,asmr
 DOMAIN-KEYWORD,dlsite
 DOMAIN-KEYWORD,hanime
@@ -52,3 +82,4 @@ DOMAIN,nineyu.com
 DOMAIN,supporter-files.nexus-cdn.com
 DOMAIN,surrit.com
 DOMAIN,v.weeab0o.xyz
+DOMAIN,v2.qewbn.com
