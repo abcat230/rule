@@ -1,10 +1,10 @@
-DOMAIN-SUFFIX,gov.hk # 香港政府
-DOMAIN-SUFFIX,gov.mo # 澳門政府
+DOMAIN-SUFFIX,gov.hk
+DOMAIN-SUFFIX,gov.mo
 
-DOMAIN-SUFFIX,cathaypacific.com # 國泰
-DOMAIN-SUFFIX,hkexpress.com # 香港快運
-DOMAIN-SUFFIX,hongkongairport.com # 香港國際機場
-DOMAIN-SUFFIX,greaterbay-airlines.com # 大灣區航空
+DOMAIN-SUFFIX,cathaypacific.com
+DOMAIN-SUFFIX,hkexpress.com
+DOMAIN-SUFFIX,hongkongairport.com
+DOMAIN-SUFFIX,greaterbay-airlines.com
 
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
