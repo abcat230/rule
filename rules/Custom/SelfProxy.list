@@ -11,14 +11,14 @@ DOMAIN-KEYWORD,nordvpn
 DOMAIN-SUFFIX,expressapisv2.net
 DOMAIN,vpn-support.zendesk.com
 
-# cloudstorage
+# CloudStorage
 DOMAIN-SUFFIX,gofile.io
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,pcloud.com
 
-
+# 
 DOMAIN-KEYWORD,bitdefender
-DOMAIN-KEYWORD,fortresshk
+DOMAIN-KEYWORD,fortress
 DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,adobedtm.com
@@ -28,11 +28,13 @@ DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,investing.com
+DOMAIN-SUFFIX,kakuyomu.jp
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,lightnovel.fun
 DOMAIN-SUFFIX,neigbuy.com
 DOMAIN-SUFFIX,nzxt.com
 DOMAIN-SUFFIX,paradox-interactive.com
+DOMAIN-SUFFIX,readpai.com
 DOMAIN-SUFFIX,scamsniffer.io
 DOMAIN-SUFFIX,sswpdd.xyz
 DOMAIN-SUFFIX,warp.dev

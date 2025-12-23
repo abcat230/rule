@@ -21,18 +21,20 @@ DOMAIN,ocsp.digicert.com
 DOMAIN,h64.online-metrix.net
 
 # Other Banking
-DOMAIN-KEYWORD,hangseng
-DOMAIN-KEYWORD,fusionbank
+DOMAIN-KEYWORD,airstarbank
 DOMAIN-KEYWORD,antbank
 DOMAIN-KEYWORD,bankofchina
 DOMAIN-KEYWORD,bochk
 DOMAIN-KEYWORD,bocmacau
-DOMAIN-KEYWORD,airstarbank
+DOMAIN-KEYWORD,fusionbank
 DOMAIN-KEYWORD,manulife
-DOMAIN-SUFFIX,za.group
-DOMAIN-SUFFIX,zajourney.com
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hangsenginvestment.com
+DOMAIN-SUFFIX,hsi.com.hk
 DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zajourney.com
 
 # Payment
 DOMAIN-KEYWORD,alipay
