@@ -1,15 +1,12 @@
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
 
-DOMAIN-KEYWORD,axa
+# Travel
 DOMAIN-SUFFIX,cathaypacific.com
+DOMAIN-SUFFIX,greaterbay-airlines.com
 DOMAIN-SUFFIX,hkexpress.com
 DOMAIN-SUFFIX,hongkongairport.com
-DOMAIN-SUFFIX,greaterbay-airlines.com
-
-DOMAIN-SUFFIX,tlkqc.com
-DOMAIN-SUFFIX,wlcdn88.com
-DOMAIN,www.gamer520.com
+DOMAIN-SUFFIX,trip.com
 
 # HSBC
 DOMAIN-KEYWORD,hsbc
@@ -21,20 +18,25 @@ DOMAIN,ocsp.digicert.com
 DOMAIN,h64.online-metrix.net
 
 # Other Banking
+DOMAIN-SUFFIX,hkjc.com
 DOMAIN-KEYWORD,airstarbank
 DOMAIN-KEYWORD,antbank
+DOMAIN-KEYWORD,axa
 DOMAIN-KEYWORD,bankofchina
 DOMAIN-KEYWORD,bochk
 DOMAIN-KEYWORD,bocmacau
 DOMAIN-KEYWORD,fusionbank
 DOMAIN-KEYWORD,manulife
+DOMAIN-SUFFIX,aia.com.hk
 DOMAIN-SUFFIX,hangseng.com
 DOMAIN-SUFFIX,hangsenginvestment.com
 DOMAIN-SUFFIX,hsi.com.hk
+DOMAIN-SUFFIX,manulife.com.hk
 DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,welab.bank
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
+DOMAIN-SUFFIX,zurich.com.hk
 
 # Payment
 DOMAIN-KEYWORD,alipay
@@ -52,3 +54,7 @@ DOMAIN-SUFFIX,tuielf.com
 
 # Download
 DOMAIN-SUFFIX,sswpdd.xyz
+
+DOMAIN-SUFFIX,tlkqc.com
+DOMAIN-SUFFIX,wlcdn88.com
+DOMAIN,www.gamer520.com
