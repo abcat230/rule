@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,expressapisv2.net
 DOMAIN,vpn-support.zendesk.com
 
 # CloudStorage
+DOMAIN-KEYWORD,dropbox
 DOMAIN-SUFFIX,gofile.io
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,pcloud.com
