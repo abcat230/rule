@@ -16,9 +16,23 @@ DOMAIN-SUFFIX,gofile.io
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,pcloud.com
 
+# Novel
+DOMAIN-SUFFIX,lightnovel.fun
+DOMAIN-SUFFIX,lightnovel.us
+DOMAIN-SUFFIX,linovelib.com
+DOMAIN-SUFFIX,bilinovel.com
+
+# Manga
+DOMAIN-SUFFIX,copymanga.tv
+DOMAIN-SUFFIX,komiic.com
+DOMAIN-SUFFIX,mangacopy.com
+DOMAIN-SUFFIX,mangafuna.xyz
+DOMAIN-SUFFIX,manhuagui.com
+
 # 
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,fortress
+DOMAIN-KEYWORD,iherb
 DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,adobedtm.com
@@ -30,7 +44,7 @@ DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,kakuyomu.jp
 DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,lightnovel.fun
+DOMAIN-SUFFIX,lmarena.ai
 DOMAIN-SUFFIX,neigbuy.com
 DOMAIN-SUFFIX,nzxt.com
 DOMAIN-SUFFIX,paradox-interactive.com
@@ -41,3 +55,4 @@ DOMAIN-SUFFIX,warp.dev
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,zed.dev
 DOMAIN,dl.motrix.app
+DOMAIN-SUFFIX,mapgenie.io
