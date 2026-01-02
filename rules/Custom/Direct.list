@@ -58,3 +58,17 @@ DOMAIN-SUFFIX,sswpdd.xyz
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN,www.gamer520.com
+
+# HOYO
+DOMAIN-SUFFIX,hoyoverse.com
+# hyp-webstatic.hoyoverse.com
+# log-upload-os.hoyoverse.com
+# minor-api-os.hoyoverse.com
+# sg-downloader-api.hoyoverse.com
+# sg-public-api.hoyoverse.com
+# sg-public-data-api.hoyoverse.com
+# apm-api.hoyoverse.com
+# apm-log-upload-os.hoyoverse.com
+# data-abtest-api.hoyoverse.com
+# sdk-os-static.hoyoverse.com
+# webstatic.hoyoverse.com

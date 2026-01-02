@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,jp1media.com
+DOMAIN-SUFFIX,kemono.cr
 DOMAIN-SUFFIX,kemono.su
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
@@ -41,13 +42,22 @@ DOMAIN-SUFFIX,qy0.ru
 DOMAIN-SUFFIX,wnacg.com
 
 # Video
+DOMAIN-SUFFIX,campus-av.com
 DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,lourmel.nl
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,tnmr.org
 
 # 
 DOMAIN-KEYWORD,dlsite
 DOMAIN-KEYWORD,hentai
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,asmr
+
+DOMAIN-SUFFIX,doodcdn.io
+DOMAIN-SUFFIX,lulucdn.com
+DOMAIN-SUFFIX,lulustream.com
+DOMAIN-SUFFIX,luluvdoo.com
+DOMAIN-SUFFIX,luluvid.com
