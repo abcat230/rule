@@ -43,12 +43,17 @@ DOMAIN-SUFFIX,wnacg.com
 
 # Video
 DOMAIN-SUFFIX,campus-av.com
+DOMAIN-SUFFIX,delipu.cc
+DOMAIN-SUFFIX,fc2stream.tv
 DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,lourmel.nl
 DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,mrds66.com
 DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,rou.video
 DOMAIN-SUFFIX,tnmr.org
+DOMAIN,orevideo.pythonanywhere.com
 
 # 
 DOMAIN-KEYWORD,dlsite
