@@ -3,19 +3,6 @@ DOMAIN-SUFFIX,agoda.com
 DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 
-# VPN
-DOMAIN-KEYWORD,expressvpn
-DOMAIN-KEYWORD,surfshark
-DOMAIN-KEYWORD,nordvpn
-DOMAIN-SUFFIX,expressapisv2.net
-DOMAIN,vpn-support.zendesk.com
-
-# CloudStorage
-DOMAIN-KEYWORD,dropbox
-DOMAIN-SUFFIX,gofile.io
-DOMAIN-SUFFIX,mega.co.nz
-DOMAIN-SUFFIX,pcloud.com
-
 # Novel
 DOMAIN-SUFFIX,lightnovel.fun
 DOMAIN-SUFFIX,lightnovel.us
