@@ -80,12 +80,16 @@ DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibsj
 DOMAIN-KEYWORD,interactivebrokers
 
+# Payment
+DOMAIN-SUFFIX,stripe.com
+
 # Misc
 DOMAIN-KEYWORD,notion
 DOMAIN-KEYWORD,shopback
 DOMAIN-KEYWORD,shopify
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate
+DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,forbooks.jp
 DOMAIN-SUFFIX,shop.app
 DOMAIN,api.redotpay.com
