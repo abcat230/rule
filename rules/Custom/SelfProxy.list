@@ -3,19 +3,6 @@ DOMAIN-SUFFIX,agoda.com
 DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 
-# Novel
-DOMAIN-SUFFIX,lightnovel.fun
-DOMAIN-SUFFIX,lightnovel.us
-DOMAIN-SUFFIX,linovelib.com
-DOMAIN-SUFFIX,bilinovel.com
-
-# Manga
-DOMAIN-SUFFIX,copymanga.tv
-DOMAIN-SUFFIX,komiic.com
-DOMAIN-SUFFIX,mangacopy.com
-DOMAIN-SUFFIX,mangafuna.xyz
-DOMAIN-SUFFIX,manhuagui.com
-
 # Adobe
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobedtm.com
@@ -27,7 +14,6 @@ DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,neigbuy.com
 
 # 
-sl886.com
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,fortress
 DOMAIN-KEYWORD,logitech
@@ -48,6 +34,7 @@ DOMAIN-SUFFIX,nzxt.com
 DOMAIN-SUFFIX,paradox-interactive.com
 DOMAIN-SUFFIX,readpai.com
 DOMAIN-SUFFIX,scamsniffer.io
+DOMAIN-SUFFIX,sl886.com
 DOMAIN-SUFFIX,sosimhk.com
 DOMAIN-SUFFIX,sswpdd.xyz
 DOMAIN-SUFFIX,unpkg.com

@@ -28,7 +28,8 @@ DOMAIN-SUFFIX,asmr.one
 DOMAIN-SUFFIX,japaneseasmr.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
 
-# Image
+# Image or Manga
+DOMAIN-SUFFIX,copymanga.tv
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,exhentai.org
@@ -36,10 +37,21 @@ DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,jp1media.com
 DOMAIN-SUFFIX,kemono.cr
 DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,komiic.com
+DOMAIN-SUFFIX,mangacopy.com
+DOMAIN-SUFFIX,mangafuna.xyz
+DOMAIN-SUFFIX,mangafunb.fun
+DOMAIN-SUFFIX,manhuagui.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qy0.ru
 DOMAIN-SUFFIX,wnacg.com
+
+# Novel
+DOMAIN-SUFFIX,lightnovel.fun
+DOMAIN-SUFFIX,lightnovel.us
+DOMAIN-SUFFIX,linovelib.com
+DOMAIN-SUFFIX,bilinovel.com
 
 # Video
 DOMAIN-SUFFIX,campus-av.com
