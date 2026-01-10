@@ -22,10 +22,6 @@ DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobess.com
 DOMAIN-SUFFIX,typekit.com
 
-# CloudFlare
-DOMAIN-KEYWORD,cloudflare
-DOMAIN-SUFFIX,imagedelivery.net
-
 # Shopping
 DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,neigbuy.com
