@@ -83,6 +83,9 @@ DOMAIN-KEYWORD,interactivebrokers
 # Payment
 DOMAIN-SUFFIX,stripe.com
 
+# CloudFlare
+DOMAIN-KEYWORD,cloudflare
+
 # Misc
 DOMAIN-KEYWORD,notion
 DOMAIN-KEYWORD,shopback
