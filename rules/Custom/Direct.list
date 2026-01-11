@@ -1,3 +1,8 @@
+# ==========================================
+# Last Updated: 2026-01-11
+# ==========================================
+
+# Hong Kong & Macau Government
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
 
@@ -55,20 +60,17 @@ DOMAIN-SUFFIX,tuielf.com
 # Download
 DOMAIN-SUFFIX,sswpdd.xyz
 
+# HoYoverse 靜態資源與下載
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN,fastcdn.hoyoverse.com
+DOMAIN,hkrpg-sdk-os-static.hoyoverse.com
+DOMAIN,hyp-webstatic.hoyoverse.com
+DOMAIN,sdk-common-static.hoyoverse.com
+DOMAIN,sg-downloader-api.hoyoverse.com
+DOMAIN,sg-hkrpg-announcement-api-static.hoyoverse.com
+DOMAIN,upload-static.hoyoverse.com
+DOMAIN,webstatic.hoyoverse.com
+
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN,www.gamer520.com
-
-# HOYO
-DOMAIN-SUFFIX,hoyoverse.com
-# hyp-webstatic.hoyoverse.com
-# log-upload-os.hoyoverse.com
-# minor-api-os.hoyoverse.com
-# sg-downloader-api.hoyoverse.com
-# sg-public-api.hoyoverse.com
-# sg-public-data-api.hoyoverse.com
-# apm-api.hoyoverse.com
-# apm-log-upload-os.hoyoverse.com
-# data-abtest-api.hoyoverse.com
-# sdk-os-static.hoyoverse.com
-# webstatic.hoyoverse.com
