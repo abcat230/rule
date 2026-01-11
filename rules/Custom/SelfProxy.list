@@ -1,3 +1,7 @@
+# ==========================================
+# Last Updated: 2026-01-11
+# ==========================================
+
 # Travel
 DOMAIN-SUFFIX,agoda.com
 DOMAIN-SUFFIX,kkday.com
@@ -5,7 +9,10 @@ DOMAIN-SUFFIX,klook.com
 
 # Adobe
 DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobecces.com
+DOMAIN-SUFFIX,adobedc.net
 DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobess.com
 DOMAIN-SUFFIX,typekit.com
 
@@ -13,16 +20,61 @@ DOMAIN-SUFFIX,typekit.com
 DOMAIN-KEYWORD,iherb
 DOMAIN-SUFFIX,neigbuy.com
 
-# 
-DOMAIN-KEYWORD,bitdefender
-DOMAIN-KEYWORD,fortress
-DOMAIN-KEYWORD,logitech
-DOMAIN-KEYWORD,whoscall
-DOMAIN-SUFFIX,aastocks.com
-DOMAIN-SUFFIX,appsflyersdk.com
+# CDN & 圖片託管 & CMS
+DOMAIN-KEYWORD,hubspotusercontent
+DOMAIN-SUFFIX,cdn.contentful.com
+DOMAIN-SUFFIX,cdn.instadapp.io
+DOMAIN-SUFFIX,cdn.prod.website-files.com
+DOMAIN-SUFFIX,cloudcdn-img.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,i.ibb.co
+DOMAIN-SUFFIX,images.ctfassets.net
+DOMAIN-SUFFIX,ipfs.sintral.me
+DOMAIN-SUFFIX,nexus-cdn.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,wsrv.nl
+# Fastly CDN 151.101.0.0/16
+IP-CIDR,151.101.195.6/32,no-resolve
+# Akamai CDN 23.62.0.0/16
+IP-CIDR,23.62.133.47/32,no-resolve
+
+# Feature Flags & A/B Testing
+DOMAIN-SUFFIX,fscdn.eppo.cloud
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,api.amplitudeexperiment.com
+DOMAIN-SUFFIX,api.onesignal.com
+
+# Browser
 DOMAIN-SUFFIX,brave-http-only.com
 DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,opera.com
+
+# 驅動 & Package Manager
+DOMAIN-KEYWORD,logitech
+DOMAIN-SUFFIX,a-volute.com
+DOMAIN-SUFFIX,nzxt.com
+DOMAIN-SUFFIX,steelseries.com
 DOMAIN-SUFFIX,brew.sh
+
+# 狀態頁面
+DOMAIN-SUFFIX,statuspage.io
+
+# AWS
+IP-CIDR,13.228.157.201/32,no-resolve
+
+# 資源/影片
+DOMAIN-SUFFIX,s1.fengbao9.com
+DOMAIN-SUFFIX,vip.dytt-cinema.com
+DOMAIN-SUFFIX,vip.ffzy-plays.com
+
+# Uncategorized
+DOMAIN-KEYWORD,bitdefender
+DOMAIN-KEYWORD,fortress
+DOMAIN-KEYWORD,whoscall
+DOMAIN-SUFFIX,aastocks.com
+DOMAIN-SUFFIX,alienvault.com
+DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,investing.com
@@ -30,15 +82,18 @@ DOMAIN-SUFFIX,kakuyomu.jp
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,lmarena.ai
 DOMAIN-SUFFIX,mapgenie.io
-DOMAIN-SUFFIX,nzxt.com
+DOMAIN-SUFFIX,msftstatic.com
 DOMAIN-SUFFIX,paradox-interactive.com
 DOMAIN-SUFFIX,readpai.com
 DOMAIN-SUFFIX,scamsniffer.io
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sl886.com
 DOMAIN-SUFFIX,sosimhk.com
 DOMAIN-SUFFIX,sswpdd.xyz
 DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,virustotal.com
 DOMAIN-SUFFIX,warp.dev
+DOMAIN-SUFFIX,x1.c.lencr.org
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,zed.dev
 DOMAIN,dl.motrix.app

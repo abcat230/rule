@@ -1,0 +1,77 @@
+# ==========================================
+# Last Updated: 2026-01-11
+# ==========================================
+
+# --- ASMR ---
+DOMAIN-KEYWORD,asmr
+# DLsite
+DOMAIN-KEYWORD,dlsite
+DOMAIN-SUFFIX,eisys-bcs.jp
+# Others
+DOMAIN-SUFFIX,kiko-play-niptan.one
+DOMAIN-SUFFIX,weeab0o.xyz
+DOMAIN-SUFFIX,weeabo0.xyz
+
+# Image or Manga
+DOMAIN-KEYWORD,hentai
+DOMAIN-SUFFIX,chobit.cc
+DOMAIN-SUFFIX,copymanga.tv
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,jp1media.com
+DOMAIN-SUFFIX,kemono.cr
+DOMAIN-SUFFIX,kemono.su
+DOMAIN-SUFFIX,komiic.com
+DOMAIN-SUFFIX,mangacopy.com
+DOMAIN-SUFFIX,mangafuna.xyz
+DOMAIN-SUFFIX,mangafunb.fun
+DOMAIN-SUFFIX,manhuagui.com
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,qy0.ru
+DOMAIN-SUFFIX,wnacg.com
+
+# Novel
+DOMAIN-SUFFIX,bilinovel.com
+DOMAIN-SUFFIX,lightnovel.fun
+DOMAIN-SUFFIX,lightnovel.us
+DOMAIN-SUFFIX,linovelib.com
+
+# Video
+DOMAIN-KEYWORD,jav
+DOMAIN-KEYWORD,porn
+DOMAIN-SUFFIX,campus-av.com
+DOMAIN-SUFFIX,delipu.cc
+DOMAIN-SUFFIX,doodcdn.io
+DOMAIN-SUFFIX,fc2stream.tv
+DOMAIN-SUFFIX,fourhoi.com
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,lourmel.nl
+DOMAIN-SUFFIX,lulucdn.com
+DOMAIN-SUFFIX,lulustream.com
+DOMAIN-SUFFIX,luluvdoo.com
+DOMAIN-SUFFIX,luluvid.com
+DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,mrds66.com
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,orevideo.pythonanywhere.com
+DOMAIN-SUFFIX,rou.video
+DOMAIN-SUFFIX,sptvp.com
+DOMAIN-SUFFIX,streamtape.com
+DOMAIN-SUFFIX,tnmr.org
+DOMAIN-SUFFIX,turboviplay.com
+
+# Uncategorized
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,south-plus.net
+
+# Unknown
+DOMAIN-SUFFIX,img.shyleps.com
+DOMAIN-SUFFIX,nineyu.com
+DOMAIN-SUFFIX,surrit.com
+DOMAIN-SUFFIX,v2.qewbn.com
