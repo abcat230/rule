@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-11
+# Last Updated: 2026-01-12
 # ==========================================
 
 # Hong Kong & Macau Government
@@ -71,6 +71,7 @@ DOMAIN,sg-hkrpg-announcement-api-static.hoyoverse.com
 DOMAIN,upload-static.hoyoverse.com
 DOMAIN,webstatic.hoyoverse.com
 
+# Uncategorized
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN,www.gamer520.com

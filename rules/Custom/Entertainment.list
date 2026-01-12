@@ -1,28 +1,28 @@
 # ==========================================
-# Last Updated: 2026-01-11
+# Last Updated: 2026-01-12
 # ==========================================
 
 # --- Game ---
-# HoYoverse 核心 API 與數據服務
+# HoYoverse
 DOMAIN-SUFFIX,hoyolab.com
-# DOMAIN-SUFFIX,starrails.com
-# DOMAIN-SUFFIX,zenlesszonezero.com
 DOMAIN,abtest-api-data-sg.hoyoverse.com
+DOMAIN,ad-log-upload-os.hoyoverse.com
+DOMAIN,apm-api.hoyoverse.com
+DOMAIN,apm-log-upload-os.hoyoverse.com
 DOMAIN,data-abtest-api.hoyoverse.com
 DOMAIN,hkrpg-sdk-os.hoyoverse.com
-DOMAIN,minor-api-os.hoyoverse.com
+DOMAIN,log-upload-os.hoyoverse.com
+DOMAIN,sdk-log-upload-os.hoyoverse.com
 DOMAIN,sdk-os-static.hoyoverse.com
 DOMAIN,sg-hkrpg-announcement-api.hoyoverse.com
 DOMAIN,sg-public-api.hoyoverse.com
 DOMAIN,sg-public-data-api.hoyoverse.com
-# HoYoverse 日誌與監控
-DOMAIN,ad-log-upload-os.hoyoverse.com
-DOMAIN,apm-api.hoyoverse.com
-DOMAIN,apm-log-upload-os.hoyoverse.com
-DOMAIN,hkrpg-log-upload-os.hoyoverse.com
-DOMAIN,log-upload-os.hoyoverse.com
-DOMAIN,sdk-log-upload-os.hoyoverse.com
-
+# Starrails
+DOMAIN,globaldp-prod-os01.starrails.com
+DOMAIN,prod-official-asia-dp01.starrails.com
+# Others
+DOMAIN-SUFFIX,mapgenie.io
+DOMAIN-SUFFIX,paradox-interactive.com
 
 # --- ASMR ---
 DOMAIN-KEYWORD,asmr
@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,wnacg.com
 
 # Novel
 DOMAIN-SUFFIX,bilinovel.com
+DOMAIN-SUFFIX,kakuyomu.jp
 DOMAIN-SUFFIX,lightnovel.fun
 DOMAIN-SUFFIX,lightnovel.us
 DOMAIN-SUFFIX,linovelib.com
@@ -90,6 +91,7 @@ DOMAIN-SUFFIX,turboviplay.com
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,south-plus.net
 
 # Unknown

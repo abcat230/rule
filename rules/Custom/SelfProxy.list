@@ -1,11 +1,6 @@
 # ==========================================
-# Last Updated: 2026-01-11
+# Last Updated: 2026-01-12
 # ==========================================
-
-# Travel
-DOMAIN-SUFFIX,agoda.com
-DOMAIN-SUFFIX,kkday.com
-DOMAIN-SUFFIX,klook.com
 
 # Adobe
 DOMAIN-SUFFIX,adobe.io
@@ -15,10 +10,6 @@ DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobess.com
 DOMAIN-SUFFIX,typekit.com
-
-# Shopping
-DOMAIN-KEYWORD,iherb
-DOMAIN-SUFFIX,neigbuy.com
 
 # CDN & 圖片託管 & CMS
 DOMAIN-KEYWORD,hubspotusercontent
@@ -50,7 +41,7 @@ DOMAIN-SUFFIX,brave-http-only.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,opera.com
 
-# 驅動 & Package Manager
+# 驅動 & Package Manager & System Update
 DOMAIN-KEYWORD,logitech
 DOMAIN-SUFFIX,a-volute.com
 DOMAIN-SUFFIX,nzxt.com
@@ -68,6 +59,9 @@ DOMAIN-SUFFIX,s1.fengbao9.com
 DOMAIN-SUFFIX,vip.dytt-cinema.com
 DOMAIN-SUFFIX,vip.ffzy-plays.com
 
+# Service
+DOMAIN-SUFFIX,sosimhk.com
+
 # Uncategorized
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,fortress
@@ -75,20 +69,15 @@ DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,alienvault.com
 DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,holodex.net
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,investing.com
-DOMAIN-SUFFIX,kakuyomu.jp
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,lmarena.ai
-DOMAIN-SUFFIX,mapgenie.io
 DOMAIN-SUFFIX,msftstatic.com
-DOMAIN-SUFFIX,paradox-interactive.com
 DOMAIN-SUFFIX,readpai.com
 DOMAIN-SUFFIX,scamsniffer.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sl886.com
-DOMAIN-SUFFIX,sosimhk.com
 DOMAIN-SUFFIX,sswpdd.xyz
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,virustotal.com
