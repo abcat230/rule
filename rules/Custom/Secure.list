@@ -1,28 +1,28 @@
 # ==========================================
-# Last Updated: 2026-01-11
+# Last Updated: 2026-01-13
 # ==========================================
 
 # Oversea Gov
 DOMAIN-SUFFIX,go.jp
 
 # Mail
-DOMAIN-KEYWORD,mail
-DOMAIN-SUFFIX,gmail.com
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.yaml
+DOMAIN-SUFFIX,imap.gmail.com
 DOMAIN-SUFFIX,imap.yandex.com
 DOMAIN-SUFFIX,m.hotmail.com
-DOMAIN-SUFFIX,mail.google.com
-DOMAIN-SUFFIX,mail.protonmail.com
-DOMAIN-SUFFIX,mail.yahoo.com
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,pm.me
-DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,smtp.yandex.com
+DOMAIN,apple.imap.mail.yahoo.com
+DOMAIN,apple.smtp.mail.yahoo.com
+DOMAIN,imap-mail.outlook.com
+DOMAIN,outlook.office365.com
+DOMAIN,pop.gmail.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.gmail.com
+DOMAIN,smtp.office365.com
 
 # Password Manager & 2FA
-DOMAIN-KEYWORD,1password
 DOMAIN-KEYWORD,bitwarden
-DOMAIN-KEYWORD,lastpass
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authenticator-api.proton.me
 DOMAIN-SUFFIX,authy.com
@@ -31,21 +31,21 @@ DOMAIN-SUFFIX,cache.agilebits.com
 DOMAIN-SUFFIX,google-authenticator.com
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,pass-api.proton.me
+PROCESS-NAME,LastPass
 
 # IBKR
-DOMAIN-KEYWORD,ibkr
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibsj
-DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN,editorial-assets.benzinga.com
+DOMAIN,static.seekingalpha.com
+DOMAIN,widgets.tipranks.com
+DOMAIN,www.benzinga.com
 
 # Payment
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,redotpay.com
-
-# CloudFlare
-DOMAIN-KEYWORD,cloudflare
 
 # Health
 DOMAIN-SUFFIX,hksh-hospital.com
@@ -63,12 +63,6 @@ DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,cloudns.net
 DOMAIN-SUFFIX,digitalplat.org
 DOMAIN-SUFFIX,namesilo.com
-
-# E-Commerce
-DOMAIN-KEYWORD,shopback
-DOMAIN-SUFFIX,forbooks.jp
-DOMAIN-SUFFIX,shop.app
-DOMAIN-SUFFIX,shopify.com
 
 # Uncategorized
 DOMAIN-KEYWORD,notion

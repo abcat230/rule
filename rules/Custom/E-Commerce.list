@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-12
+# Last Updated: 2026-01-13
 # ==========================================
 
 # Travel
@@ -7,7 +7,15 @@ DOMAIN-SUFFIX,agoda.com
 DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 
-# Uncategorized
+# iHerb
 DOMAIN-SUFFIX,iherb.com
-DOMAIN-SUFFIX,neigbuy.com
+DOMAIN-SUFFIX,images-iherb.com
+
+# Uncategorized
+DOMAIN-SUFFIX,forbooks.jp
 DOMAIN-SUFFIX,hktvmall.com
+DOMAIN-SUFFIX,neigbuy.com
+DOMAIN-SUFFIX,shop.app
+DOMAIN-SUFFIX,shopback.com
+DOMAIN-SUFFIX,shopback.com.hk
+DOMAIN-SUFFIX,shopify.com
