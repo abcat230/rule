@@ -2,6 +2,8 @@
 # Last Updated: 2026-01-14
 # ==========================================
 
+DST-PORT,51820
+
 # ExpressVPN
 DOMAIN-SUFFIX,expressvpn.com
 DOMAIN-SUFFIX,expressapisv2.net
@@ -32,12 +34,16 @@ DOMAIN-SUFFIX,napps-1.com
 DOMAIN-SUFFIX,nordaccount.com
 DOMAIN-SUFFIX,nordsec.com
 DOMAIN-SUFFIX,nordvpn.com
-IP-CIDR,181.214.70.0/24,no-resolve # UNordLynx SA
+IP-CIDR,152.89.204.0/24,no-resolve # NordLynx HK
+IP-CIDR,181.214.70.0/24,no-resolve # NordLynx SA
 IP-CIDR,181.215.169.0/24,no-resolve # NordLynx USA
+IP-CIDR,185.202.221.0/24,no-resolve # NordLynx USA
 IP-CIDR,185.225.234.0/24,no-resolve # NordLynx HK
+IP-CIDR,192.166.244.0/24,no-resolve # NordLynx HK
 IP-CIDR,192.166.247.0/24,no-resolve # NordLynx JP Osaka
 IP-CIDR,217.217.114.0/24,no-resolve # NordLynx JP Tokyo
-IP-CIDR,84.17.57.0/24,no-resolve # NordLynxHK
+IP-CIDR,84.17.37.0/24,no-resolve # NordLynx HK
+IP-CIDR,84.17.57.0/24,no-resolve # NordLynx HK
 
 # Surfshark
 DOMAIN-SUFFIX,surfshark.com
