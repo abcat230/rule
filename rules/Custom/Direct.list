@@ -6,6 +6,9 @@
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
 
+# Hong Kong & Macau Service
+DOMAIN-SUFFIX,tahoelife.com.hk
+
 # Travel
 DOMAIN-SUFFIX,cathaypacific.com
 DOMAIN-SUFFIX,greaterbay-airlines.com
