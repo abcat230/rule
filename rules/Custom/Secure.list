@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-13
+# Last Updated: 2026-01-14
 # ==========================================
 
 # Oversea Gov
@@ -24,6 +24,8 @@ DOMAIN,smtp.office365.com
 # Password Manager & 2FA
 DOMAIN-KEYWORD,bitwarden
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordservices.com
+DOMAIN-SUFFIX,1passwordusercontent.com
 DOMAIN-SUFFIX,authenticator-api.proton.me
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bitwarden.com
@@ -36,8 +38,8 @@ PROCESS-NAME,LastPass
 # IBKR
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibsj
+DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN,editorial-assets.benzinga.com
 DOMAIN,static.seekingalpha.com
 DOMAIN,widgets.tipranks.com
@@ -46,6 +48,12 @@ DOMAIN,www.benzinga.com
 # Payment
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,redotpay.com
+
+# 防詐, 監控, 風控, 驗證碼挑戰
+DOMAIN-SUFFIX,akstat.io
+DOMAIN-SUFFIX,forter.com
+DOMAIN-SUFFIX,go-mpulse.net
+DOMAIN-SUFFIX,kaptcha.com
 
 # Health
 DOMAIN-SUFFIX,hksh-hospital.com
@@ -65,6 +73,5 @@ DOMAIN-SUFFIX,digitalplat.org
 DOMAIN-SUFFIX,namesilo.com
 
 # Uncategorized
-DOMAIN-KEYWORD,notion
 DOMAIN-KEYWORD,sms-activate
 DOMAIN-KEYWORD,smsactivate

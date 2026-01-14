@@ -1,5 +1,11 @@
+# ==========================================
+# Last Updated: 2026-01-14
+# ==========================================
 
 payload:
+  # ExpressVPN
+  - DOMAIN-SUFFIX,expressvpn.com
+  - DOMAIN-SUFFIX,expressapisv2.net
   - IP-CIDR,3.229.173.0/24,no-resolve # ExpressVPN USA Virginia
   - IP-CIDR,5.38.57.0/24,no-resolve # ExpressVPN USA Los Angeles 1
   - IP-CIDR,5.84.212.0/24,no-resolve # ExpressVPN USA Los Angeles 3
@@ -21,10 +27,18 @@ payload:
   - IP-CIDR,212.32.76.0/24,no-resolve # ExpressVPN Japan Osaka
   - IP-CIDR,213.21.247.0/24,no-resolve # ExpressVPN Japan Yokohama/Tokyo
   - IP-CIDR,213.254.160.0/24,no-resolve # ExpressVPN USA Santa Monica
-  - DOMAIN-KEYWORD,expressvpn
-  - DOMAIN-KEYWORD,nordvpn
-  - DOMAIN-KEYWORD,surfshark
-  - DOMAIN-SUFFIX,expressapisv2.net
-  - DOMAIN-SUFFIX,expressapisv2.net
-  - DOMAIN,vpn-support.zendesk.com
+  # NordVPN
+  - DOMAIN-SUFFIX,napps-1.com
+  - DOMAIN-SUFFIX,nordaccount.com
+  - DOMAIN-SUFFIX,nordsec.com
+  - DOMAIN-SUFFIX,nordvpn.com # Normal domain / NordWhisper
+  - IP-CIDR,181.214.70.0/24,no-resolve # NordLynx (51820) USA
+  - IP-CIDR,181.215.169.0/24,no-resolve # NordLynx (51820) USA
+  - IP-CIDR,185.225.234.0/24,no-resolve # NordLynx (51820) HK
+  - IP-CIDR,192.166.247.0/24,no-resolve # NordLynx (51820) JP Osaka
+  - IP-CIDR,217.217.114.0/24,no-resolve # NordLynx (51820) JP Tokyo
+  - IP-CIDR,84.17.57.0/24,no-resolve # NordLynx (51820) HK
+  # Surfshark
+  - DOMAIN-SUFFIX,surfshark.com
+  # Others
   - DOMAIN,vpn-support.zendesk.com
