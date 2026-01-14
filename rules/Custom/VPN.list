@@ -38,5 +38,14 @@ DOMAIN-SUFFIX,nordvpn.com
 # Surfshark
 DOMAIN-SUFFIX,surfshark.com
 
+# ProtonVPN
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protondownload.com
+DOMAIN-SUFFIX,protonvpn.com
+DOMAIN-SUFFIX,protonweb.com
+IP-CIDR,138.199.21.215/32,no-resolve # ProtonVPN JP
+IP-CIDR,146.70.113.98/32,no-resolve # ProtonVPN HK
+IP-CIDR,146.70.195.98/32,no-resolve # ProtonVPN USA LA
+
 # Others
 DOMAIN,vpn-support.zendesk.com

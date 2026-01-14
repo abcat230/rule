@@ -5,6 +5,9 @@
 # Oversea Gov
 DOMAIN-SUFFIX,go.jp
 
+# Service
+DOMAIN-SUFFIX,sosimhk.com
+
 # Mail
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.yaml
 DOMAIN-SUFFIX,imap.gmail.com
