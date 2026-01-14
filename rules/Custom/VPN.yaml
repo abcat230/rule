@@ -28,16 +28,17 @@ payload:
   - IP-CIDR,213.21.247.0/24,no-resolve # ExpressVPN Japan Yokohama/Tokyo
   - IP-CIDR,213.254.160.0/24,no-resolve # ExpressVPN USA Santa Monica
   # NordVPN
-  - "DOMAIN-SUFFIX,napps-1.com"
-  - "DOMAIN-SUFFIX,nordaccount.com"
-  - "DOMAIN-SUFFIX,nordsec.com"
-  - "DOMAIN-SUFFIX,nordvpn.com"
-  - IP-CIDR,181.214.70.0/24,no-resolve # NordLynx (51820) USA
-  - IP-CIDR,181.215.169.0/24,no-resolve # NordLynx (51820) USA
-  - IP-CIDR,185.225.234.0/24,no-resolve # NordLynx (51820) HK
-  - IP-CIDR,192.166.247.0/24,no-resolve # NordLynx (51820) JP Osaka
-  - IP-CIDR,217.217.114.0/24,no-resolve # NordLynx (51820) JP Tokyo
-  - IP-CIDR,84.17.57.0/24,no-resolve # NordLynx (51820) HK
+  - DOMAIN-SUFFIX,napps-1.com
+  - DOMAIN-SUFFIX,nordaccount.com
+  - DOMAIN-SUFFIX,nordsec.com
+  - DOMAIN-SUFFIX,nordvpn.com
+  #  NordLynx (51820)
+  - IP-CIDR,181.214.70.0/24,no-resolve # USA
+  - IP-CIDR,181.215.169.0/24,no-resolve # USA
+  - IP-CIDR,185.225.234.0/24,no-resolve # HK
+  - IP-CIDR,192.166.247.0/24,no-resolve # JP Osaka
+  - IP-CIDR,217.217.114.0/24,no-resolve # JP Tokyo
+  - IP-CIDR,84.17.57.0/24,no-resolve # HK
   # Surfshark
   - DOMAIN-SUFFIX,surfshark.com
   # Others
