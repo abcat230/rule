@@ -32,7 +32,7 @@ payload:
   - DOMAIN-SUFFIX,nordaccount.com
   - DOMAIN-SUFFIX,nordsec.com
   - DOMAIN-SUFFIX,nordvpn.com
-  #  NordLynx (51820)
+  # NordLynx (51820)
   - IP-CIDR,181.214.70.0/24,no-resolve # USA
   - IP-CIDR,181.215.169.0/24,no-resolve # USA
   - IP-CIDR,185.225.234.0/24,no-resolve # HK
