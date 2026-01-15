@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-12
+# Last Updated: 2026-01-15
 # ==========================================
 
 # Hong Kong & Macau Government
@@ -10,20 +10,32 @@ DOMAIN-SUFFIX,gov.mo
 DOMAIN-SUFFIX,tahoelife.com.hk
 
 # Travel
-DOMAIN-SUFFIX,cathaypacific.com
-DOMAIN-SUFFIX,greaterbay-airlines.com
-DOMAIN-SUFFIX,hkexpress.com
-DOMAIN-SUFFIX,hongkongairport.com
+DOMAIN-KEYWORD,cathaypacific
+DOMAIN-KEYWORD,greaterbay-airlines
+DOMAIN-KEYWORD,greaterbayairlines
+DOMAIN-KEYWORD,hkexpress
+DOMAIN-KEYWORD,hongkongairport
+DOMAIN-SUFFIX,agoda.cn
+DOMAIN-SUFFIX,agoda.com
+DOMAIN-SUFFIX,agoda.net
+DOMAIN-SUFFIX,kkday.com
+DOMAIN-SUFFIX,klook.com
 DOMAIN-SUFFIX,trip.com
+
+# E-Commerce
+DOMAIN-SUFFIX,hktvmall.com
+DOMAIN-SUFFIX,uniqlo.com.hk
 
 # HSBC
 DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,tealiumiq.com
+DOMAIN,h64.online-metrix.net
 DOMAIN,logx.optimizely.com
 DOMAIN,ocsp.digicert.com
-DOMAIN,h64.online-metrix.net
+DOMAIN,paymeapi.notey.com # Payme
+DOMAIN,s4.notey.com # Payme
 
 # Other Banking
 DOMAIN-SUFFIX,hkjc.com
@@ -52,7 +64,6 @@ DOMAIN-KEYWORD,codpayment
 DOMAIN-KEYWORD,octopus
 
 # Service
-DOMAIN-KEYWORD,greaterbay-airlines
 DOMAIN-SUFFIX,birdie.com.hk
 DOMAIN-SUFFIX,hkex.com.hk
 DOMAIN-SUFFIX,tplinkcloud.com

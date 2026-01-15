@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-14
+# Last Updated: 2026-01-15
 # ==========================================
 
 # Adobe
@@ -68,6 +68,16 @@ IP-CIDR,13.228.157.201/32,no-resolve
 DOMAIN-SUFFIX,s1.fengbao9.com
 DOMAIN-SUFFIX,vip.dytt-cinema.com
 DOMAIN-SUFFIX,vip.ffzy-plays.com
+
+# E-Commerce
+DOMAIN-SUFFIX,forbooks.jp
+DOMAIN-SUFFIX,iherb.com
+DOMAIN-SUFFIX,images-iherb.com
+DOMAIN-SUFFIX,neigbuy.com
+DOMAIN-SUFFIX,shop.app
+DOMAIN-SUFFIX,shopback.com
+DOMAIN-SUFFIX,shopback.com.hk
+DOMAIN-SUFFIX,shopify.com
 
 # Uncategorized
 DOMAIN-KEYWORD,bitdefender
