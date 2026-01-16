@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-15
+# Last Updated: 2026-01-16
 # ==========================================
 
 # Hong Kong & Macau Government
@@ -34,8 +34,8 @@ DOMAIN-SUFFIX,tealiumiq.com
 DOMAIN,h64.online-metrix.net
 DOMAIN,logx.optimizely.com
 DOMAIN,ocsp.digicert.com
-DOMAIN,paymeapi.notey.com # Payme
-DOMAIN,s4.notey.com # Payme
+DOMAIN,paymeapi.notey.com
+DOMAIN,s4.notey.com
 
 # Other Banking
 DOMAIN-SUFFIX,hkjc.com
