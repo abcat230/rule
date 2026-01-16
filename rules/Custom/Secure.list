@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-14
+# Last Updated: 2026-01-16
 # ==========================================
 
 # Oversea Gov
@@ -49,8 +49,10 @@ DOMAIN,widgets.tipranks.com
 DOMAIN,www.benzinga.com
 
 # Payment
-DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,redotpay.com
+DOMAIN-SUFFIX,stripe.com
 
 # 防詐, 監控, 風控, 驗證碼挑戰
 DOMAIN-SUFFIX,akstat.io
@@ -74,6 +76,7 @@ DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,cloudns.net
 DOMAIN-SUFFIX,digitalplat.org
 DOMAIN-SUFFIX,namesilo.com
+DOMAIN-SUFFIX,porkbun.com
 
 # Uncategorized
 DOMAIN-KEYWORD,sms-activate

@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-15
+# Last Updated: 2026-01-16
 # ==========================================
 
 # Adobe
@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,typekit.com
 
 # CDN & 圖片託管 & CMS & A/B Testing
 DOMAIN-KEYWORD,hubspotusercontent
+DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,cdn.contentful.com
 DOMAIN-SUFFIX,cdn.instadapp.io
 DOMAIN-SUFFIX,cdn.prod.website-files.com
@@ -26,6 +27,7 @@ DOMAIN-SUFFIX,lytics.io
 DOMAIN-SUFFIX,nexus-cdn.com
 DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,optimizely.com
+DOMAIN-SUFFIX,posthog.com
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,tiktokcdn.com

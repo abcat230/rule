@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-11
+# Last Updated: 2026-01-16
 # ==========================================
 
 # --- Crypto Exchange ---
@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,chainid.network
 DOMAIN-SUFFIX,exp.host
 DOMAIN-SUFFIX,ironforge.network
 DOMAIN-SUFFIX,keplr.app
+DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,nightly.app
 DOMAIN-SUFFIX,phantom.app
 DOMAIN-SUFFIX,rabby.io
@@ -66,9 +67,12 @@ DOMAIN-SUFFIX,web3auth.io
 DOMAIN-SUFFIX,web3modal.org
 
 # --- RPC, Nodes & API ---
+DOMAIN-SUFFIX,1rpc.io
 DOMAIN-SUFFIX,alchemy.com
 DOMAIN-SUFFIX,ankr.com
 DOMAIN-SUFFIX,drpc.org
+DOMAIN-SUFFIX,eth.drpc.org
+DOMAIN-SUFFIX,helius-rpc.com
 DOMAIN-SUFFIX,highstakes.ch
 DOMAIN-SUFFIX,polypore.xyz
 DOMAIN-SUFFIX,publicnode.com
@@ -85,13 +89,14 @@ DOMAIN,testnet-rpc.monad.xyz
 DOMAIN-KEYWORD,naviprotocol
 DOMAIN-SUFFIX,aerodrome.finance
 DOMAIN-SUFFIX,cetus.zone
+DOMAIN-SUFFIX,codefi.network
 DOMAIN-SUFFIX,ethena.fi
 DOMAIN-SUFFIX,jup.ag
 DOMAIN-SUFFIX,kamino.com
 DOMAIN-SUFFIX,kamino.finance
+DOMAIN-SUFFIX,lido.fi
 DOMAIN-SUFFIX,ondo.finance
 DOMAIN-SUFFIX,sky.money
-DOMAIN-SUFFIX,codefi.network
 
 # CDN
 DOMAIN-SUFFIX,cdn.1stdigital.com

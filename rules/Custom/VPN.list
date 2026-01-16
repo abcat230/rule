@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-14
+# Last Updated: 2026-01-16
 # ==========================================
 
 DST-PORT,51820 # WireGuard Port
@@ -46,6 +46,9 @@ DOMAIN-SUFFIX,protonweb.com
 IP-CIDR,138.199.21.215/32,no-resolve # ProtonVPN JP
 IP-CIDR,146.70.113.98/32,no-resolve # ProtonVPN HK
 IP-CIDR,146.70.195.98/32,no-resolve # ProtonVPN USA LA
+
+# PIA
+DOMAIN-SUFFIX,privateinternetaccess.com
 
 # Others
 DOMAIN,vpn-support.zendesk.com
