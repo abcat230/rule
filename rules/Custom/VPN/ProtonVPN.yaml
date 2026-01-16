@@ -1,0 +1,12 @@
+# ==========================================
+# Last Updated: 2026-01-16
+# ==========================================
+
+payload:
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protondownload.com
+  - DOMAIN-SUFFIX,protonvpn.com
+  - DOMAIN-SUFFIX,protonweb.com
+  - IP-CIDR,138.199.21.215/32,no-resolve # JP
+  - IP-CIDR,146.70.113.98/32,no-resolve # HK
+  - IP-CIDR,146.70.195.98/32,no-resolve # USA
