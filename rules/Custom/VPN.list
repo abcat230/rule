@@ -2,7 +2,7 @@
 # Last Updated: 2026-01-16
 # ==========================================
 
-DST-PORT,51820 # WireGuard Port
+DST-PORT,51820
 
 # ExpressVPN
 DOMAIN-SUFFIX,expressvpn.com
