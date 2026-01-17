@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-16
+# Last Updated: 2026-01-17
 # ==========================================
 
 # Hong Kong & Macau Government
@@ -21,6 +21,10 @@ DOMAIN-SUFFIX,agoda.net
 DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 DOMAIN-SUFFIX,trip.com
+
+# Health
+DOMAIN-SUFFIX,hksh-hospital.com
+DOMAIN,mobile.hksh.com
 
 # E-Commerce
 DOMAIN-SUFFIX,hktvmall.com

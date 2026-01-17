@@ -1,0 +1,19 @@
+# ==========================================
+# Last Updated: 2026-01-17
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.yaml
+# ==========================================
+
+payload:
+  - "+.imap.gmail.com"
+  - "+.imap.yandex.com"
+  - "+.m.hotmail.com"
+  - "+.mail.me.com"
+  - "+.smtp.yandex.com"
+  - "apple.imap.mail.yahoo.com"
+  - "apple.smtp.mail.yahoo.com"
+  - "imap-mail.outlook.com"
+  - "outlook.office365.com"
+  - "pop.gmail.com"
+  - "smtp-mail.outlook.com"
+  - "smtp.gmail.com"
+  - "smtp.office365.com"
