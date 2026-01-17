@@ -3,10 +3,6 @@
 # ==========================================
 
 payload:
-  - AND,((IP-CIDR,100.21.114.238/32),(DST-PORT,9930))
-  - AND,((IP-CIDR,35.81.210.123/32),(DST-PORT,9930))
-  - AND,((IP-CIDR,52.12.132.111/32),(DST-PORT,9930))
-  - AND,((IP-CIDR,14.175.29.107/32),(DST-PORT,22570))
   - DOMAIN-SUFFIX,elys.network
   - DOMAIN-SUFFIX,kopi.money
   - DOMAIN-SUFFIX,megaeth.com
