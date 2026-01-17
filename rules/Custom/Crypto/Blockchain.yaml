@@ -1,0 +1,32 @@
+# ==========================================
+# Last Updated: 2026-01-17
+# ==========================================
+
+payload:
+  - "*solana*"
+  - "*mantrachain*"
+  - "+.api.solana.fluid.io"
+  - "+.dialectapi.to"
+  - "+.genesysgo.net"
+  - "+.helius.xyz"
+  - "+.jito.network"
+  - "+.portfolio-api-jup-pos.sonar.watch"
+  - "+.solanacompass.com"
+  - "+.solscan.io"
+  - "+.api.shinami.com"
+  - "+.api.slush.app"
+  - "+.app.matrixdock.com"
+  - "+.app.turbos.finance"
+  - "+.bluefin.io"
+  - "+.haedal.xyz"
+  - "+.images.deepbook.tech"
+  - "+.lombard.finance"
+  - "+.mystenlabs.com"
+  - "+.sui.io"
+  - "+.token-image.suins.io"
+  - "+.base.easscan.org"
+  - "+.cytonic.com"
+  - "+.etherlink.com"
+  - "+.mantra.finance"
+  - "+.mantra.zone"
+  - "+.noble.xyz"

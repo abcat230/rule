@@ -32,15 +32,6 @@ DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,wsrv.nl
-# Fastly CDN AS54113
-IP-CIDR,151.101.0.0/16,no-resolve
-# Akamai CDN AS16625
-IP-CIDR,17.253.115.132/32,no-resolve
-IP-CIDR,23.35.218.155/32,no-resolve
-IP-CIDR,23.39.160.16/32,no-resolve
-IP-CIDR,23.46.134.69/32,no-resolve
-IP-CIDR,23.49.204.30/32,no-resolve
-IP-CIDR,23.62.133.47/32,no-resolve
 
 # Feature Flags & A/B Testing
 DOMAIN-SUFFIX,fscdn.eppo.cloud

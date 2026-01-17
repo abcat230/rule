@@ -1,0 +1,53 @@
+# ==========================================
+# Last Updated: 2026-01-17
+# ==========================================
+
+payload:
+  - AND,((IP-CIDR,100.21.114.238/32),(DST-PORT,9930)),no-resolve
+  - AND,((IP-CIDR,35.81.210.123/32),(DST-PORT,9930)),no-resolve
+  - AND,((IP-CIDR,52.12.132.111/32),(DST-PORT,9930)),no-resolve
+  - AND,((IP-CIDR,14.175.29.107/32),(DST-PORT,22570)),no-resolve
+  - DOMAIN-SUFFIX,elys.network
+  - DOMAIN-SUFFIX,kopi.money
+  - DOMAIN-SUFFIX,megaeth.com
+  - DOMAIN-SUFFIX,morpho.org
+  - DOMAIN-SUFFIX,movepump.com
+  - DOMAIN-SUFFIX,pryzm.zone
+  - DOMAIN-SUFFIX,sanctum.so
+  - DOMAIN-SUFFIX,sunriselayer.io
+  - DOMAIN-SUFFIX,tiplink.io
+  - DOMAIN-SUFFIX,auth.privy.io
+  - DOMAIN-SUFFIX,arweave.net
+  - DOMAIN-SUFFIX,node1.irys.xyz
+  - DOMAIN-SUFFIX,api.merkl.xyz
+  - DOMAIN-SUFFIX,api.fuul.xyz
+  - DOMAIN-SUFFIX,ether.fi
+  - DOMAIN-SUFFIX,cdn.1stdigital.com
+  - DOMAIN-SUFFIX,1rpc.io
+  - DOMAIN-SUFFIX,alchemy.com
+  - DOMAIN-SUFFIX,ankr.com
+  - DOMAIN-SUFFIX,drpc.org
+  - DOMAIN-SUFFIX,eth.drpc.org
+  - DOMAIN-SUFFIX,helius-rpc.com
+  - DOMAIN-SUFFIX,highstakes.ch
+  - DOMAIN-SUFFIX,polypore.xyz
+  - DOMAIN-SUFFIX,publicnode.com
+  - DOMAIN-SUFFIX,rpcpool.com
+  - DOMAIN-SUFFIX,sagarpc.io
+  - DOMAIN-SUFFIX,sapien.io
+  - DOMAIN-SUFFIX,segment.com
+  - DOMAIN-SUFFIX,unlock-protocol.com
+  - DOMAIN,info-sky.blockanalitica.com
+  - DOMAIN,rpc.cosmos.directory
+  - DOMAIN,testnet-rpc.monad.xyz
+  - DOMAIN-KEYWORD,naviprotocol
+  - DOMAIN-SUFFIX,aerodrome.finance
+  - DOMAIN-SUFFIX,cetus.zone
+  - DOMAIN-SUFFIX,codefi.network
+  - DOMAIN-SUFFIX,ethena.fi
+  - DOMAIN-SUFFIX,,jup.ag
+  - DOMAIN-SUFFIX,kamino.com
+  - DOMAIN-SUFFIX,kamino.finance
+  - DOMAIN-SUFFIX,lido.fi
+  - DOMAIN-SUFFIX,ondo.finance
+  - DOMAIN-SUFFIX,sky.money

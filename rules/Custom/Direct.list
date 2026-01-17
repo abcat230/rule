@@ -2,14 +2,13 @@
 # Last Updated: 2026-01-17
 # ==========================================
 
-# Hong Kong & Macau Government
+# Others
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
+DOMAIN-SUFFIX,hksh-hospital.com
+DOMAIN,mobile.hksh.com
 
-# Hong Kong & Macau Service
-DOMAIN-SUFFIX,tahoelife.com.hk
-
-# Travel
+# Travel & Shopping
 DOMAIN-KEYWORD,cathaypacific
 DOMAIN-KEYWORD,greaterbay-airlines
 DOMAIN-KEYWORD,greaterbayairlines
@@ -21,16 +20,11 @@ DOMAIN-SUFFIX,agoda.net
 DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 DOMAIN-SUFFIX,trip.com
-
-# Health
-DOMAIN-SUFFIX,hksh-hospital.com
-DOMAIN,mobile.hksh.com
-
-# E-Commerce
 DOMAIN-SUFFIX,hktvmall.com
 DOMAIN-SUFFIX,uniqlo.com.hk
 
-# HSBC
+# Finance & Banking
+DOMAIN-SUFFIX,tahoelife.com.hk
 DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,liveperson.net
@@ -40,8 +34,6 @@ DOMAIN,logx.optimizely.com
 DOMAIN,ocsp.digicert.com
 DOMAIN,paymeapi.notey.com
 DOMAIN,s4.notey.com
-
-# Other Banking
 DOMAIN-SUFFIX,hkjc.com
 DOMAIN-KEYWORD,airstarbank
 DOMAIN-KEYWORD,antbank
@@ -61,8 +53,6 @@ DOMAIN-SUFFIX,welab.bank
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zurich.com.hk
-
-# Payment
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,codpayment
 DOMAIN-KEYWORD,octopus
@@ -74,9 +64,6 @@ DOMAIN-SUFFIX,tplinkcloud.com
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,hkbn.net
 DOMAIN-SUFFIX,tuielf.com
-
-# Download
-DOMAIN-SUFFIX,sswpdd.xyz
 
 # HoYoverse 靜態資源與下載
 DOMAIN-SUFFIX,mihoyo.com
