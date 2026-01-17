@@ -1,0 +1,19 @@
+# ==========================================
+# Last Updated: 2026-01-17
+# ==========================================
+
+payload:
+  - DOMAIN,prod-official-asia-dp01.starrails.com
+  - DOMAIN-KEYWORD,cloudflare
+  - DOMAIN,accounts.grpc.ea.com
+  - DOMAIN,api.k.social.ea.com
+  - DOMAIN,assets.layer.ea.com
+  - DOMAIN,bf6-eventbridge.ops.dice.se
+  - DOMAIN,collector.errors.ea.com
+  - DOMAIN,experimentation.data.ea.com
+  - DOMAIN,ext-3-40-130-46.blaze.ea.com
+  - DOMAIN,gateway.grpc.ea.com
+  - DOMAIN,pin-river.data.ea.com
+  - DOMAIN,qoscoordinator.gameservices.ea.com
+  - DOMAIN,rtm.tnt-ea.com
+  - DOMAIN,tos.ea.com
