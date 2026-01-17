@@ -45,7 +45,7 @@ payload:
   - DOMAIN-SUFFIX,cetus.zone
   - DOMAIN-SUFFIX,codefi.network
   - DOMAIN-SUFFIX,ethena.fi
-  - DOMAIN-SUFFIX,,jup.ag
+  - DOMAIN-SUFFIX,jup.ag
   - DOMAIN-SUFFIX,kamino.com
   - DOMAIN-SUFFIX,kamino.finance
   - DOMAIN-SUFFIX,lido.fi
