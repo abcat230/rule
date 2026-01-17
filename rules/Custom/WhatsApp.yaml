@@ -1,0 +1,11 @@
+# ==========================================
+# Last Updated: 2026-01-17
+# ==========================================
+
+payload:
+  - "+.cdn.whatsapp.net"
+  - "dit.whatsapp.net"
+  - "e6.whatsapp.net"
+  - "g-fallback.whatsapp.net"
+  - "g.whatsapp.net"
+  - "static.whatsapp.net"

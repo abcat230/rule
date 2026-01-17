@@ -3,17 +3,20 @@
 # ==========================================
 
 payload:
-  - DOMAIN,prod-official-asia-dp01.starrails.com
-  - DOMAIN-KEYWORD,cloudflare
-  - DOMAIN,accounts.grpc.ea.com
-  - DOMAIN,api.k.social.ea.com
-  - DOMAIN,assets.layer.ea.com
-  - DOMAIN,bf6-eventbridge.ops.dice.se
-  - DOMAIN,collector.errors.ea.com
-  - DOMAIN,experimentation.data.ea.com
-  - DOMAIN,ext-3-40-130-46.blaze.ea.com
-  - DOMAIN,gateway.grpc.ea.com
-  - DOMAIN,pin-river.data.ea.com
-  - DOMAIN,qoscoordinator.gameservices.ea.com
-  - DOMAIN,rtm.tnt-ea.com
-  - DOMAIN,tos.ea.com
+  - "*cloudflare*"
+  - "+.blaze.ea.com" # port 15065
+  - "+.social.ea.com"
+  - "accounts.grpc.ea.com"
+  - "assets.layer.ea.com"
+  - "bf6-eventbridge.ops.dice.se"
+  - "bf6-mp-cgw.ops.dice.se"
+  - "collector.errors.ea.com"
+  - "experimentation.data.ea.com"
+  - "freeform-river.data.ea.com"
+  - "gateway.grpc.ea.com"
+  - "pin-river.data.ea.com"
+  - "prod-official-asia-dp01.starrails.com"
+  - "qoscoordinator.gameservices.ea.com"
+  - "rtm.tnt-ea.com"
+  - "spring25.client.blazeredirector.ea.com"
+  - "tos.ea.com"
