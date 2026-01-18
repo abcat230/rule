@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-17
+# Last Updated: 2026-01-18
 # ==========================================
 
 # Others
@@ -21,7 +21,6 @@ DOMAIN-SUFFIX,kkday.com
 DOMAIN-SUFFIX,klook.com
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,hktvmall.com
-DOMAIN-SUFFIX,uniqlo.com.hk
 
 # Finance & Banking
 DOMAIN-SUFFIX,tahoelife.com.hk
