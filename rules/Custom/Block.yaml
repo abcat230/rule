@@ -3,14 +3,10 @@
 # ==========================================
 
 payload:
-  - "+.ad-delivery.net"
   - "+.alkimi.org"
   - "+.app-ads-services.com"
   - "+.bance.jp"
-  - "+.btloader.com"
-  - "+.id5-sync.com"
   - "+.liftoff.io"
-  - "+.scorecardresearch.com"
   - "+.teads.tv"
   - "+.union.dplayerstatic.com"
   - "+.webcontentassessor.com"
