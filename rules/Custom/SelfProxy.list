@@ -63,16 +63,13 @@ DOMAIN-SUFFIX,vip.dytt-cinema.com
 DOMAIN-SUFFIX,vip.ffzy-plays.com
 
 # E-Commerce
+DOMAIN-KEYWORD,iherb
+DOMAIN-KEYWORD,shopback
+DOMAIN-KEYWORD,uniqlo
 DOMAIN-SUFFIX,forbooks.jp
-DOMAIN-SUFFIX,iherb.com
-DOMAIN-SUFFIX,images-iherb.com
 DOMAIN-SUFFIX,neigbuy.com
 DOMAIN-SUFFIX,shop.app
-DOMAIN-SUFFIX,shopback.com
-DOMAIN-SUFFIX,shopback.com.hk
 DOMAIN-SUFFIX,shopify.com
-DOMAIN-SUFFIX,uniqlo.com
-DOMAIN-SUFFIX,uniqlo.com.hk
 
 # Uncategorized
 DOMAIN-KEYWORD,bitdefender
