@@ -1,23 +1,23 @@
 # ==========================================
-# Last Updated: 2026-01-19
+# Last Updated: 2026-01-29
 # ==========================================
 
 payload:
-  - "+.cloudflare.com"
-  - "+.cloudflareaccess.com"
-  - "+.blaze.ea.com"
-  - "+.social.ea.com"
-  - "accounts.grpc.ea.com"
-  - "assets.layer.ea.com"
-  - "bf6-eventbridge.ops.dice.se"
-  - "bf6-mp-cgw.ops.dice.se"
-  - "collector.errors.ea.com"
-  - "experimentation.data.ea.com"
-  - "freeform-river.data.ea.com"
-  - "gateway.grpc.ea.com"
-  - "pin-river.data.ea.com"
-  - "prod-official-asia-dp01.starrails.com"
-  - "qoscoordinator.gameservices.ea.com"
-  - "rtm.tnt-ea.com"
-  - "spring25.client.blazeredirector.ea.com"
-  - "tos.ea.com"
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflareaccess.com
+  - DOMAIN-SUFFIX,blaze.ea.com
+  - DOMAIN-SUFFIX,social.ea.com
+  - DOMAIN,accounts.grpc.ea.com
+  - DOMAIN,assets.layer.ea.com
+  - DOMAIN,bf6-eventbridge.ops.dice.se
+  - DOMAIN,bf6-mp-cgw.ops.dice.se
+  - DOMAIN,collector.errors.ea.com
+  - DOMAIN,experimentation.data.ea.com
+  - DOMAIN,freeform-river.data.ea.com
+  - DOMAIN,gateway.grpc.ea.com
+  - DOMAIN,pin-river.data.ea.com
+  - DOMAIN,prod-official-asia-dp01.starrails.com
+  - DOMAIN,qoscoordinator.gameservices.ea.com
+  - DOMAIN,rtm.tnt-ea.com
+  - DOMAIN,spring25.client.blazeredirector.ea.com
+  - DOMAIN,tos.ea.com
