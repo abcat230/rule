@@ -27,6 +27,9 @@ DOMAIN,globaldp-prod-os01.starrails.com
 DOMAIN-SUFFIX,mapgenie.io
 DOMAIN-SUFFIX,paradox-interactive.com
 
+# Anime
+DOMAIN-SUFFIX,anime1.me
+
 # --- ASMR ---
 DOMAIN-KEYWORD,asmr
 # DLsite

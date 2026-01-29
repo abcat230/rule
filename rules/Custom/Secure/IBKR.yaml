@@ -7,6 +7,8 @@ payload:
   - "*ibsj*"
   - "*interactivebrokers*"
   - "+.ibkr.com"
+  - "+.interactivebrokers.com.hk"
+  - "+.interactivebrokers.com"
   - "editorial-assets.benzinga.com"
   - "static.seekingalpha.com"
   - "widgets.tipranks.com"
