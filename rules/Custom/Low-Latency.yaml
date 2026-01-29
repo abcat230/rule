@@ -5,7 +5,7 @@
 payload:
   - "+.cloudflare.com"
   - "+.cloudflareaccess.com"
-  - "+.blaze.ea.com" # port 15065
+  - "+.blaze.ea.com"
   - "+.social.ea.com"
   - "accounts.grpc.ea.com"
   - "assets.layer.ea.com"
