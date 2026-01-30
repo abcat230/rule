@@ -1,13 +1,15 @@
 # ==========================================
-# Last Updated: 2026-01-18
+# Last Updated: 2026-01-30
 # ==========================================
 
 # Others
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
-DOMAIN-SUFFIX,hksh-hospital.com
-DOMAIN,mobile.hksh.com
 DOMAIN-SUFFIX,ha.org.hk
+DOMAIN-SUFFIX,hksh-hospital.com
+DOMAIN-SUFFIX,sosimhk.com
+DOMAIN-SUFFIX,three.com.hk
+DOMAIN,mobile.hksh.com
 
 # Travel & Shopping
 DOMAIN-KEYWORD,cathaypacific
@@ -70,13 +72,17 @@ DOMAIN-SUFFIX,mihoyo.com
 DOMAIN,fastcdn.hoyoverse.com
 DOMAIN,hkrpg-sdk-os-static.hoyoverse.com
 DOMAIN,hyp-webstatic.hoyoverse.com
+DOMAIN,nap-sdk-os-static.hoyoverse.com
+DOMAIN,nap-webstatic.hoyoverse.com
 DOMAIN,sdk-common-static.hoyoverse.com
 DOMAIN,sg-downloader-api.hoyoverse.com
 DOMAIN,sg-hkrpg-announcement-api-static.hoyoverse.com
+DOMAIN,sg-nap-announcement-api-static.hoyoverse.com
 DOMAIN,upload-static.hoyoverse.com
 DOMAIN,webstatic.hoyoverse.com
 
 # Uncategorized
+DOMAIN-SUFFIX,samsungcloud.com
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN,www.gamer520.com
