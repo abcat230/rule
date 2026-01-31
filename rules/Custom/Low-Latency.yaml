@@ -21,10 +21,8 @@ payload:
   - DOMAIN,rtm.tnt-ea.com
   - DOMAIN,spring25.client.blazeredirector.ea.com
   - DOMAIN,tos.ea.com
-  - DOMAIN,prod.umbrella.demonware.net
-  - DOMAIN,prod.uno.demonware.net
-  - DOMAIN,wz-steam-auth3.prod.demonware.net
-  - DOMAIN,wz-steam-loginqueue.prod.demonware.net
-  - DOMAIN,genesis.stun.eu.demonware.net
+  - DOMAIN-SUFFIX,demonware.net
   - DOMAIN,cod-assets.cdn.blizzard.com
   - DOMAIN,status.geotrust.com
+  - DOMAIN,telescope.callofduty.com
+  - DOMAIN,prod-data.energon.activision.com
