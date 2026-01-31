@@ -72,12 +72,9 @@ DOMAIN-SUFFIX,mihoyo.com
 DOMAIN,fastcdn.hoyoverse.com
 DOMAIN,hkrpg-sdk-os-static.hoyoverse.com
 DOMAIN,hyp-webstatic.hoyoverse.com
-DOMAIN,nap-sdk-os-static.hoyoverse.com
-DOMAIN,nap-webstatic.hoyoverse.com
 DOMAIN,sdk-common-static.hoyoverse.com
 DOMAIN,sg-downloader-api.hoyoverse.com
 DOMAIN,sg-hkrpg-announcement-api-static.hoyoverse.com
-DOMAIN,sg-nap-announcement-api-static.hoyoverse.com
 DOMAIN,upload-static.hoyoverse.com
 DOMAIN,webstatic.hoyoverse.com
 
