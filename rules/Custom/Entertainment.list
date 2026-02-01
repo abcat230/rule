@@ -60,6 +60,8 @@ DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qy0.ru
 DOMAIN-SUFFIX,wnacg.com
+DOMAIN-SUFFIX,cdn-ak.f.st-hatena.com
+DOMAIN-SUFFIX,cdn.pool.st-hatena.com
 
 # Novel
 DOMAIN-SUFFIX,bilinovel.com
@@ -71,6 +73,9 @@ DOMAIN-SUFFIX,linovelib.com
 # Video
 DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,porn
+DOMAIN-SUFFIX,boltdns.net
+DOMAIN-SUFFIX,brightcove.net
+DOMAIN-SUFFIX,brightcovecdn.com
 DOMAIN-SUFFIX,campus-av.com
 DOMAIN-SUFFIX,delipu.cc
 DOMAIN-SUFFIX,doodcdn.io
@@ -107,3 +112,5 @@ DOMAIN-SUFFIX,img.shyleps.com
 DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,v2.qewbn.com
+DOMAIN,bunkr-albums.io
+DOMAIN,bunkr.cr
