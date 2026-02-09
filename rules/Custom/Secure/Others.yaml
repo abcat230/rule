@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-30
+# Last Updated: 2026-02-09
 # ==========================================
 
 payload:
@@ -19,4 +19,6 @@ payload:
   - "+.namesilo.com"
   - "+.porkbun.com"
   - "+.racknerd.com"
+  - "+.v.ps"
+  - "+.vps.hosting"
   - "+.vultr.com"
