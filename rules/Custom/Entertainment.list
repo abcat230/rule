@@ -48,6 +48,12 @@ DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
+IP-CIDR,178.175.128.251/32,no-resolve
+IP-CIDR,178.175.128.252/32,no-resolve
+IP-CIDR,178.175.128.253/32,no-resolve
+
+DOMAIN-SUFFIX,chobit.cc
+DOMAIN-SUFFIX,copymanga.tv
 DOMAIN-SUFFIX,jp1media.com
 DOMAIN-SUFFIX,kemono.cr
 DOMAIN-SUFFIX,kemono.su
