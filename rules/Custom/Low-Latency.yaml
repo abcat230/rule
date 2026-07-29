@@ -3,26 +3,27 @@
 # ==========================================
 
 payload:
+  - DOMAIN-SUFFIX,blaze.ea.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflareaccess.com
-  - DOMAIN-SUFFIX,blaze.ea.com
+  - DOMAIN-SUFFIX,demonware.net
   - DOMAIN-SUFFIX,social.ea.com
   - DOMAIN,accounts.grpc.ea.com
   - DOMAIN,assets.layer.ea.com
   - DOMAIN,bf6-eventbridge.ops.dice.se
   - DOMAIN,bf6-mp-cgw.ops.dice.se
+  - DOMAIN,cod-assets.cdn.blizzard.com
   - DOMAIN,collector.errors.ea.com
   - DOMAIN,experimentation.data.ea.com
   - DOMAIN,freeform-river.data.ea.com
   - DOMAIN,gateway.grpc.ea.com
   - DOMAIN,pin-river.data.ea.com
+  - DOMAIN,prod-data-energon.infra-ext.activision.com
+  - DOMAIN,prod-data.energon.activision.com
   - DOMAIN,prod-official-asia-dp01.starrails.com
   - DOMAIN,qoscoordinator.gameservices.ea.com
   - DOMAIN,rtm.tnt-ea.com
   - DOMAIN,spring25.client.blazeredirector.ea.com
-  - DOMAIN,tos.ea.com
-  - DOMAIN-SUFFIX,demonware.net
-  - DOMAIN,cod-assets.cdn.blizzard.com
   - DOMAIN,status.geotrust.com
   - DOMAIN,telescope.callofduty.com
-  - DOMAIN,prod-data.energon.activision.com
+  - DOMAIN,tos.ea.com
