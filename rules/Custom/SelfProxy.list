@@ -1,6 +1,6 @@
 # ==========================================
-# Last Updated: 2026-01-19
 # ==========================================
+# Last Updated: 2026-01-30
 
 # Adobe
 DOMAIN-SUFFIX,adobe.io
@@ -11,14 +11,15 @@ DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobess.com
 DOMAIN-SUFFIX,typekit.com
 
-# CDN & 圖片託管 & CMS & A/B Testing
+# CDN & 圖片託管 & CMS & A/B Testing & CMP & Chatbot & CDP
 DOMAIN-KEYWORD,hubspotusercontent
-DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,ada.support:443
 DOMAIN-SUFFIX,cdn.contentful.com
 DOMAIN-SUFFIX,cdn.instadapp.io
 DOMAIN-SUFFIX,cdn.prod.website-files.com
 DOMAIN-SUFFIX,cloudcdn-img.com
 DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,consent.cmp.oath.com
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,i.ibb.co
 DOMAIN-SUFFIX,images.ctfassets.net
@@ -29,27 +30,32 @@ DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,posthog.com
 DOMAIN-SUFFIX,sentry-cdn.com
-DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,simonsignal.com:443
 DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,truste.com
 DOMAIN-SUFFIX,wsrv.nl
 
+# Cookie
+DOMAIN-SUFFIX,cdn.cookielaw.org
+
 # Feature Flags & A/B Testing
-DOMAIN-SUFFIX,fscdn.eppo.cloud
-DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,api.amplitudeexperiment.com
 DOMAIN-SUFFIX,api.onesignal.com
+DOMAIN-SUFFIX,fscdn.eppo.cloud
+DOMAIN-SUFFIX,prodregistryv2.org
 
 # Browser
 DOMAIN-SUFFIX,brave-http-only.com
 DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,bravesoftware.com
 DOMAIN-SUFFIX,opera.com
 
 # 驅動 & Package Manager & System Update
 DOMAIN-KEYWORD,logitech
 DOMAIN-SUFFIX,a-volute.com
+DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,nzxt.com
 DOMAIN-SUFFIX,steelseries.com
-DOMAIN-SUFFIX,brew.sh
 
 # 狀態頁面
 DOMAIN-SUFFIX,statuspage.io
@@ -65,18 +71,28 @@ DOMAIN-SUFFIX,vip.ffzy-plays.com
 # E-Commerce
 DOMAIN-KEYWORD,shopback
 DOMAIN-KEYWORD,uniqlo
+DOMAIN-SUFFIX,aswatson.com
 DOMAIN-SUFFIX,forbooks.jp
+DOMAIN-SUFFIX,moneyback.com.hk
 DOMAIN-SUFFIX,neigbuy.com
+DOMAIN-SUFFIX,pns.hk
 DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,shopify.com
 
 # Uncategorized
+DOMAIN,dl.motrix.app
 DOMAIN-KEYWORD,bitdefender
 DOMAIN-KEYWORD,fortress
 DOMAIN-KEYWORD,whoscall
 DOMAIN-SUFFIX,aastocks.com
 DOMAIN-SUFFIX,alienvault.com
 DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,asus.com
+DOMAIN-SUFFIX,chinaamc.com.hk
+DOMAIN-SUFFIX,fsmone.com.hk
+DOMAIN-SUFFIX,geforce.com
+DOMAIN-SUFFIX,globalxetfs.com.hk
+DOMAIN-SUFFIX,inav.ice.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,ipinfo.io
@@ -85,11 +101,15 @@ DOMAIN-SUFFIX,lmarena.ai
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN-SUFFIX,msftstatic.com
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,razer.com
 DOMAIN-SUFFIX,readpai.com
 DOMAIN-SUFFIX,scamsniffer.io
 DOMAIN-SUFFIX,sl886.com
+DOMAIN-SUFFIX,splunkcloud.com
 DOMAIN-SUFFIX,sswpdd.xyz
+DOMAIN-SUFFIX,streaming.forexpros.com
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,virustotal.com
 DOMAIN-SUFFIX,warp.dev
