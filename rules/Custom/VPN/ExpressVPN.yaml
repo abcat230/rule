@@ -1,6 +1,7 @@
 # ==========================================
 # Last Updated: 2026-08-02
 # https://www.netify.ai/resources/vpns/expressvpn
+# https://github.com/hagezi/dns-blocklists/issues/10874
 # ==========================================
 
 payload:
@@ -28,7 +29,7 @@ payload:
   - IP-CIDR,45.80.6.0/24,no-resolve # Singapore
   - IP-CIDR,85.203.23.0/24,no-resolve # Singapore
   - IP-CIDR,45.67.97.0/24,no-resolve # South Korea
-  - DOMAIN,fresh-mint-market.com # https://github.com/hagezi/dns-blocklists/issues/10874
+  - DOMAIN,fresh-mint-market.com 
   - DOMAIN,golden-spoon-kitchen.com
   - DOMAIN,happy-bean-roastery.com
   - DOMAIN,harbor-lane-bistro.com
