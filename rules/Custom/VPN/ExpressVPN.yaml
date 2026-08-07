@@ -1,10 +1,27 @@
 # ==========================================
-# Last Updated: 2026-08-02
+# Last Updated: 2026-08-07
 # https://www.netify.ai/resources/vpns/expressvpn
 # https://github.com/hagezi/dns-blocklists/issues/10874
 # ==========================================
 
 payload:
+  - DOMAIN,cheddar-chute.com
+  - DOMAIN,fresh-mint-market.com 
+  - DOMAIN,golden-spoon-kitchen.com
+  - DOMAIN,happy-bean-roastery.com
+  - DOMAIN,harbor-lane-bistro.com
+  - DOMAIN,harvest-moon-market.com
+  - DOMAIN,jelly-factory.com
+  - DOMAIN,little-oak-bistro.com
+  - DOMAIN,mamas-garden-market.com
+  - DOMAIN,maple-leaf-cafe.com
+  - DOMAIN,misty-pine-inn.com
+  - DOMAIN,peaceful-valley-inn.com
+  - DOMAIN,peach-garage.com
+  - DOMAIN,sunbeam-market.com
+  - DOMAIN,sunny-cactus-cafe.com
+  - DOMAIN,sunset-grove-farm.com
+  - DOMAIN,wildflower-bistro.com
   - DOMAIN-SUFFIX,expressvpn.com
   - DOMAIN-SUFFIX,expressapisv2.net
   - IP-CIDR,193.176.211.0/24,no-resolve # Hong Kong
@@ -29,20 +46,3 @@ payload:
   - IP-CIDR,45.80.6.0/24,no-resolve # Singapore
   - IP-CIDR,85.203.23.0/24,no-resolve # Singapore
   - IP-CIDR,45.67.97.0/24,no-resolve # South Korea
-  - DOMAIN,fresh-mint-market.com 
-  - DOMAIN,golden-spoon-kitchen.com
-  - DOMAIN,happy-bean-roastery.com
-  - DOMAIN,harbor-lane-bistro.com
-  - DOMAIN,harvest-moon-market.com
-  - DOMAIN,little-oak-bistro.com
-  - DOMAIN,mamas-garden-market.com
-  - DOMAIN,maple-leaf-cafe.com
-  - DOMAIN,misty-pine-inn.com
-  - DOMAIN,peaceful-valley-inn.com
-  - DOMAIN,sunny-cactus-cafe.com
-  - DOMAIN,sunset-grove-farm.com
-  - DOMAIN,cheddar-chute.com
-  - DOMAIN,jelly-factory.com
-  - DOMAIN,peach-garage.com
-  - DOMAIN,sunbeam-market.com
-  - DOMAIN,wildflower-bistro.com
