@@ -1,6 +1,6 @@
 # ==========================================
+# Last Updated: 2026-08-08
 # ==========================================
-# Last Updated: 2026-01-30
 
 # Adobe
 DOMAIN-SUFFIX,adobe.io
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,simonsignal.com:443
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,truste.com
 DOMAIN-SUFFIX,wsrv.nl
+DOMAIN,code.jquery.com
 
 # Cookie
 DOMAIN-SUFFIX,cdn.cookielaw.org
@@ -123,3 +124,9 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN,log.cookieyes.com
 DOMAIN,cdn-cookieyes.com
 DOMAIN-SUFFIX,game-hololive-dreams.com
+
+# IBKR 內的新聞、財經或廣告
+DOMAIN-SUFFIX,taboola.com
+
+# 連通性與區域測試
+DOMAIN-SUFFIX,ipv6check.akadns.net

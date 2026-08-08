@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-29
+# Last Updated: 2026-08-08
 # ==========================================
 
 payload:
@@ -7,6 +7,7 @@ payload:
   - DOMAIN-KEYWORD,ibsj
   - DOMAIN-KEYWORD,interactivebrokers
   - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,endowus.com
   - DOMAIN,editorial-assets.benzinga.com
   - DOMAIN,static.seekingalpha.com
   - DOMAIN,widgets.tipranks.com
