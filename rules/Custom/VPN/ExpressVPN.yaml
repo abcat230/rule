@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-08-07
+# Last Updated: 2026-08-08
 # https://www.netify.ai/resources/vpns/expressvpn
 # https://github.com/hagezi/dns-blocklists/issues/10874
 # ==========================================
@@ -22,6 +22,7 @@ payload:
   - DOMAIN,sunny-cactus-cafe.com
   - DOMAIN,sunset-grove-farm.com
   - DOMAIN,wildflower-bistro.com
+  - DOMAIN,amber-fox-bakery.com
   - DOMAIN-SUFFIX,expressvpn.com
   - DOMAIN-SUFFIX,expressapisv2.net
   - IP-CIDR,193.176.211.0/24,no-resolve # Hong Kong

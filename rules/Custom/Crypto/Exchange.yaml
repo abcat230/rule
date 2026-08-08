@@ -1,5 +1,5 @@
 # ==========================================
-# Last Updated: 2026-01-17
+# Last Updated: 2026-01-30
 # ==========================================
 
 payload:
@@ -14,3 +14,9 @@ payload:
   - "+.bybdc6.com"
   - "+.byd3c3.com"
   - "+.ouxyi.cash"
+  - "+.binance.com"
+  - "+.bnappzh.com"
+  - "+.binance.me"
+  - "+.binance.org"
+  - "+.kraken.com"
+  - "+.coinbase.com"

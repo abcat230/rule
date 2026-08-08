@@ -1,14 +1,15 @@
 # ==========================================
-# Last Updated: 2026-02-06
+# Last Updated: 2026-08-08
 # ==========================================
 
-# Others
+# Apple
+DOMAIN,cable.auth.com
+
+# GOV
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
 DOMAIN-SUFFIX,org.hk
 DOMAIN-SUFFIX,hksh-hospital.com
-DOMAIN-SUFFIX,sosimhk.com
-DOMAIN-SUFFIX,three.com.hk
 DOMAIN,mobile.hksh.com
 
 # Travel & Shopping
@@ -67,19 +68,15 @@ DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,hkbn.net
 DOMAIN-SUFFIX,tuielf.com
 
-# HoYoverse 靜態資源與下載
-DOMAIN-SUFFIX,mihoyo.com
-DOMAIN,fastcdn.hoyoverse.com
-DOMAIN,hkrpg-sdk-os-static.hoyoverse.com
-DOMAIN,hyp-webstatic.hoyoverse.com
-DOMAIN,sdk-common-static.hoyoverse.com
-DOMAIN,sg-downloader-api.hoyoverse.com
-DOMAIN,sg-hkrpg-announcement-api-static.hoyoverse.com
-DOMAIN,upload-static.hoyoverse.com
-DOMAIN,webstatic.hoyoverse.com
-
 # Uncategorized
 DOMAIN-SUFFIX,samsungcloud.com
 DOMAIN-SUFFIX,tlkqc.com
 DOMAIN-SUFFIX,wlcdn88.com
 DOMAIN,www.gamer520.com
+
+# Playstation
+DOMAIN,ps5.np.playstation.net
+DOMAIN,telemetry-console.api.playstation.com
+DOMAIN,uds-zpln-ps5.np.rds.s0.playstation.net
+DOMAIN,44-234-157-250-pushcl.np.communication.playstation.net
+DOMAIN,takedown.api.playstation.com
