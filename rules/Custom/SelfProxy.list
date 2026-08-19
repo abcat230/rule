@@ -124,6 +124,7 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN,log.cookieyes.com
 DOMAIN,cdn-cookieyes.com
 DOMAIN-SUFFIX,game-hololive-dreams.com
+DOMAIN-SUFFIX,klook.com
 
 # IBKR 內的新聞、財經或廣告
 DOMAIN-SUFFIX,taboola.com
