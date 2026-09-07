@@ -1,2 +1,2 @@
 payload:
-  - SRC-IP-CIDR,192.168.10.201/32,Direct,no-resolve
+  - SRC-IP-CIDR,192.168.10.201/32,DIRECT
