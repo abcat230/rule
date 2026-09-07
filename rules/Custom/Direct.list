@@ -85,6 +85,7 @@ DOMAIN,44-234-157-250-pushcl.np.communication.playstation.net
 DOMAIN,takedown.api.playstation.com
 
 # Petkit
+DOMAIN,sdk-upload.rtesvc.com
 DOMAIN-SUFFIX,petkit.com
 DOMAIN-SUFFIX,petkt.com
 DOMAIN-SUFFIX,petktasia.com
