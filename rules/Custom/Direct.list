@@ -91,3 +91,6 @@ DOMAIN-SUFFIX,petkt.com
 DOMAIN-SUFFIX,petktasia.com
 DOMAIN-SUFFIX,petkit.cn
 DOMAIN,rtesvc.com
+
+# Test
+SRC-IP-CIDR,192.168.10.201/32,no-resolve
