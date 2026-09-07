@@ -5,6 +5,9 @@
 # Apple
 DOMAIN,cable.auth.com
 
+# Aliyun
+DOMAIN-SUFFIX,aliyuncsslbintl.com
+
 # GOV
 DOMAIN-SUFFIX,gov.hk
 DOMAIN-SUFFIX,gov.mo
@@ -80,3 +83,9 @@ DOMAIN,telemetry-console.api.playstation.com
 DOMAIN,uds-zpln-ps5.np.rds.s0.playstation.net
 DOMAIN,44-234-157-250-pushcl.np.communication.playstation.net
 DOMAIN,takedown.api.playstation.com
+
+# Petkit
+DOMAIN-SUFFIX,petkit.com
+DOMAIN-SUFFIX,petkt.com
+DOMAIN-SUFFIX,petktasia.com
+DOMAIN-SUFFIX,petkit.cn
