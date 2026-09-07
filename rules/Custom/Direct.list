@@ -85,8 +85,9 @@ DOMAIN,44-234-157-250-pushcl.np.communication.playstation.net
 DOMAIN,takedown.api.playstation.com
 
 # Petkit
-DOMAIN,sdk-upload.rtesvc.com
-DOMAIN-SUFFIX,petkit.com
+SRC-IP-CIDR,192.168.10.149/32,no-resolve
+DOMAIN-KEYWORD,petkit
 DOMAIN-SUFFIX,petkt.com
 DOMAIN-SUFFIX,petktasia.com
 DOMAIN-SUFFIX,petkit.cn
+DOMAIN,rtesvc.com
