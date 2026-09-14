@@ -1,12 +1,10 @@
-# ==========================================
-# Last Updated: 2026-08-08
-# ==========================================
-
 # Apple
 DOMAIN,cable.auth.com
 
-# Aliyun
+# Alibaba Cloud / Aliyun
 DOMAIN-SUFFIX,aliyuncsslbintl.com
+IP-CIDR,47.246.0.0/20,no-resolve
+IP-CIDR,47.251.0.0/16,no-resolve
 
 # GOV
 DOMAIN-SUFFIX,gov.hk
@@ -85,7 +83,6 @@ DOMAIN,44-234-157-250-pushcl.np.communication.playstation.net
 DOMAIN,takedown.api.playstation.com
 
 # Petkit
-SRC-IP-CIDR,192.168.10.149/32,Direct,no-resolve
 DOMAIN-KEYWORD,petkit
 DOMAIN-SUFFIX,petkt.com
 DOMAIN-SUFFIX,petktasia.com
