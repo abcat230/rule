@@ -1,13 +1,11 @@
-# ==========================================
-# Last Updated: 2026-08-08
-# ==========================================
-
 payload:
   - DOMAIN-KEYWORD,ibllc
   - DOMAIN-KEYWORD,ibsj
   - DOMAIN-KEYWORD,interactivebrokers
-  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,datadome.co
   - DOMAIN-SUFFIX,endowus.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,taboola.com
   - DOMAIN,editorial-assets.benzinga.com
   - DOMAIN,static.seekingalpha.com
   - DOMAIN,widgets.tipranks.com

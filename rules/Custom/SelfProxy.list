@@ -1,7 +1,3 @@
-# ==========================================
-# Last Updated: 2026-08-08
-# ==========================================
-
 # Adobe
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobecces.com
@@ -10,6 +6,10 @@ DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,adobesc.com
 DOMAIN-SUFFIX,adobess.com
 DOMAIN-SUFFIX,typekit.com
+
+# AWS
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,media-amazon.com
 
 # CDN & 圖片託管 & CMS & A/B Testing & CMP & Chatbot & CDP
 DOMAIN-KEYWORD,hubspotusercontent
@@ -120,13 +120,10 @@ DOMAIN-SUFFIX,zed.dev
 DOMAIN-SUFFIX,sosimhk.com
 DOMAIN-SUFFIX,three.com.hk
 DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,fontawesome.com
 DOMAIN,log.cookieyes.com
 DOMAIN,cdn-cookieyes.com
 DOMAIN-SUFFIX,game-hololive-dreams.com
-
-# IBKR 內的新聞、財經或廣告
-DOMAIN-SUFFIX,taboola.com
 
 # 連通性與區域測試
 DOMAIN-SUFFIX,ipv6check.akadns.net
