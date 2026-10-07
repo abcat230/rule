@@ -1,14 +1,6 @@
 # ==========================================
-# Last Updated: 2026-01-17
+# Last Updated: 2026-01-30
 # ==========================================
 
 payload:
-  - "+.alkimi.org"
-  - "+.app-ads-services.com"
-  - "+.bance.jp"
-  - "+.liftoff.io"
-  - "+.teads.tv"
-  - "+.union.dplayerstatic.com"
-  - "+.webcontentassessor.com"
-  - "www.jinleishiye.com"
-  - "www.zgshunxiang.com"
+  - "+.doubleclick.net"
