@@ -6,12 +6,12 @@
 payload:
   - DOMAIN-SUFFIX,expressvpn.com
   - DOMAIN-SUFFIX,expressapisv2.net
-  - IP-CIDR,203.25.124.0/24,no-resolve # Japan
-  - IP-CIDR,115.167.79.0/24,no-resolve # Japan
-  - IP-CIDR,212.32.76.0/24,no-resolve # Japan
-  - IP-CIDR,213.21.247.0/24,no-resolve # Japan
-  - IP-CIDR,45.84.219.0/24,no-resolve # Japan
-  - IP-CIDR,185.208.11.0/24,no-resolve # Japan
+  - IP-CIDR,203.25.124.0/24,no-resolve # Lightway TCP - Japan Osaka
+  - IP-CIDR,212.32.76.0/24,no-resolve # Lightway TCP - Japan Osaka
+  - IP-CIDR,45.84.219.0/24,no-resolve # Lightway TCP - Japan Shibuya
+  - IP-CIDR,185.208.11.0/24,no-resolve # Lightway TCP - Japan Tokyo
+  - IP-CIDR,213.21.247.0/24,no-resolve # Lightway TCP - Japan Yokohama
+  - IP-CIDR,115.167.79.0/24,no-resolve # Lightway TCP - Japan
   - IP-CIDR,104.234.225.0/24,no-resolve # USA
   - IP-CIDR,104.234.227.0/24,no-resolve # USA
   - IP-CIDR,185.199.157.0/24,no-resolve # USA
