@@ -1,7 +1,3 @@
-# ==========================================
-# Last Updated: 2026-01-30
-# ==========================================
-
 payload:
   - "+.doubleclick.net"
   - "+.adtrafficquality.google"
@@ -11,4 +7,3 @@ payload:
   - "6v2p9a8.bkcdn.net"
   - "n2j9y0x0.bxcdn.net"
   - "s.magsrv.com"
-  - "hm.baidu.com"
