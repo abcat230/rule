@@ -27,38 +27,39 @@ DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,hktvmall.com
 
 # Finance & Banking
-DOMAIN-SUFFIX,tahoelife.com.hk
-DOMAIN-KEYWORD,hsbc
-DOMAIN-SUFFIX,eum-appdynamics.com
-DOMAIN-SUFFIX,liveperson.net
-DOMAIN-SUFFIX,tealiumiq.com
-DOMAIN,h64.online-metrix.net
-DOMAIN,logx.optimizely.com
-DOMAIN,ocsp.digicert.com
-DOMAIN,paymeapi.notey.com
-DOMAIN,s4.notey.com
-DOMAIN-SUFFIX,hkjc.com
 DOMAIN-KEYWORD,airstarbank
+DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,antbank
 DOMAIN-KEYWORD,axa
 DOMAIN-KEYWORD,bankofchina
 DOMAIN-KEYWORD,bochk
 DOMAIN-KEYWORD,bocmacau
+DOMAIN-KEYWORD,codpayment
 DOMAIN-KEYWORD,fusionbank
+DOMAIN-KEYWORD,hsbc
 DOMAIN-KEYWORD,manulife
+DOMAIN-KEYWORD,octopus
 DOMAIN-SUFFIX,aia.com.hk
+DOMAIN-SUFFIX,elebank.com
+DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,hangseng.com
 DOMAIN-SUFFIX,hangsenginvestment.com
+DOMAIN-SUFFIX,hkjc.com
 DOMAIN-SUFFIX,hsi.com.hk
+DOMAIN-SUFFIX,liveperson.net
 DOMAIN-SUFFIX,manulife.com.hk
 DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,tahoelife.com.hk
+DOMAIN-SUFFIX,tealiumiq.com
 DOMAIN-SUFFIX,welab.bank
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zurich.com.hk
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,codpayment
-DOMAIN-KEYWORD,octopus
+DOMAIN,h64.online-metrix.net
+DOMAIN,logx.optimizely.com
+DOMAIN,ocsp.digicert.com
+DOMAIN,paymeapi.notey.com
+DOMAIN,s4.notey.com
 
 # Service
 DOMAIN-SUFFIX,birdie.com.hk
