@@ -1,8 +1,12 @@
 payload:
-  - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,adtrafficquality.google
-  - DOMAIN,live.mmcdn.com
-  - DOMAIN,routr.link
+  - DOMAIN-SUFFIX,adxadserv.com
+  - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN,6v2p9a8.bkcdn.net
+  - DOMAIN,babeannex.work
+  - DOMAIN,cdn.storagexhd.com
+  - DOMAIN,live.mmcdn.com
+  - DOMAIN,mc.yandex.com
   - DOMAIN,n2j9y0x0.bxcdn.net
+  - DOMAIN,routr.link
   - DOMAIN,s.magsrv.com
