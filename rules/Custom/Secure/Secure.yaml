@@ -1,0 +1,14 @@
+payload:
+  - DOMAIN-KEYWORD,1password
+  - DOMAIN-KEYWORD,bitwarden
+  - DOMAIN-KEYWORD,coinpayment
+  - DOMAIN-KEYWORD,lastpass
+  - DOMAIN-KEYWORD,paypal
+  - DOMAIN-SUFFIX,authy.com
+  - DOMAIN-SUFFIX,braintreegateway.com
+  - DOMAIN-SUFFIX,cache.agilebits.com
+  - DOMAIN-SUFFIX,google-authenticator.com
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,redotpay.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
