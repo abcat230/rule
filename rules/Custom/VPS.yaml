@@ -1,0 +1,22 @@
+payload:
+  - DOMAIN-KEYWORD,sms-activate
+  - DOMAIN-KEYWORD,smsactivate
+  - DOMAIN-SUFFIX,bytevirt.com
+  - DOMAIN-SUFFIX,dmit.io
+  - DOMAIN-SUFFIX,racknerd.com
+  - DOMAIN-SUFFIX,porkbun.com
+  - DOMAIN-SUFFIX,v.ps
+  - DOMAIN-SUFFIX,vps.hosting
+  - DOMAIN-SUFFIX,vultr.com
+  - DOMAIN-SUFFIX,digitalocean.com
+  - DOMAIN-SUFFIX,digitalplat.org
+  - DOMAIN-SUFFIX,claw.cloud
+  - DOMAIN-SUFFIX,akstat.io
+  - DOMAIN-SUFFIX,cloudns.net
+  - DOMAIN-SUFFIX,forter.com
+  - DOMAIN-SUFFIX,go-mpulse.net
+  - DOMAIN-SUFFIX,go.jp
+  - DOMAIN-SUFFIX,kaptcha.com
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,namesilo.com
+  - DOMAIN,apple-relay.fastly-edge.com
