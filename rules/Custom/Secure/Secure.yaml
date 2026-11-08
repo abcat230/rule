@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,coinpayment
   - DOMAIN-KEYWORD,lastpass
   - DOMAIN-KEYWORD,paypal
+  - DOMAIN-KEYWORD,sosimhk
   - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,braintreegateway.com
   - DOMAIN-SUFFIX,cache.agilebits.com
